@@ -1,0 +1,18 @@
+[
+    {
+      "role": "user",
+      "content": "Hi!"
+    },
+    {
+      "role": "assistant",
+      "content": "Hey there, I am here to help!"
+    },
+    {
+      "role": "user",
+      "content": "Can you tell me trials related to brain tumor?"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the retrieved context, here is the information on trials related to brain tumors:\n\n1. NCT05958485: Glioblastoma Multiforme Patients in Clinical Trials: An Examination of Their Clinical Trial Experiences. This study focuses on patient experiences in glioblastoma multiforme clinical research. The goal is to identify obstacles and challenges that prevent participation in clinical studies for glioblastoma multiforme. The study is not yet recruiting and aims to determine the rate of patients who decide to enroll in a glioblastoma multiforme clinical study.\n\n2. NCT02375841: Coping With Glioblastoma: A Study of Communication Between Physicians, Patients, and Caregivers. This study aims to improve communication between patients, caregivers, and their doctors by evaluating how oncologists provide information about brain tumors, brain scan results, and treatment options. The study is currently active but not recruiting.\n\n3. NCT05115474: Phase II Study of Screening Brain MRIs in Stage IV Breast Cancer. This study investigates the role of screening brain MRIs in neurologically asymptomatic patients with metastatic breast cancer. The goal is to determine the rate of brain metastasis by breast cancer subtype at baseline using MRI images. The study is currently recruiting participants.\n\n4. NCT02851706: Evaluation of the Natural History of and Specimen Banking for Patients With Tumors of the Central Nervous System. This study aims to evaluate patients with tumors of the central nervous system (CNS) who may be future candidates for NCI Phase I and II protocols. The study will follow patients with CNS tumors to understand important scientific and clinical principles. The study is currently active but not recruiting."
+    }
+]
