@@ -1,0 +1,1858 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05130268",
+            "orgStudyIdInfo": {
+                "id": "176131-M"
+            },
+            "organization": {
+                "fullName": "American Heart Association",
+                "class": "OTHER"
+            },
+            "briefTitle": "Early Dronedarone Versus Usual Care to Improve Outcomes in Persons With Newly Diagnosed Atrial Fibrillation",
+            "officialTitle": "Pragmatic Randomized Clinical Trial of Early Dronedarone Versus Usual Care to Change and Improve Outcomes in Persons With First-Detected Atrial Fibrillation",
+            "acronym": "CHANGE-AFIB"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-10-29",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-06",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-10-27",
+            "studyFirstSubmitQcDate": "2021-11-10",
+            "studyFirstPostDateStruct": {
+                "date": "2021-11-23",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-29",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-30",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "American Heart Association",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Duke Clinical Research Institute",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Sanofi",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "While there are several completed clinical trials that address treatment strategy in patients with symptomatic and recurrent AF, there are no randomized clinical trials that address treatment for first-detected AF. In usual care, these patients are started on an atrioventricular nodal blocking agent (beta-blocker or non-dihydropyridine calcium channel blocker) along with stroke prevention therapy. The investigators hypothesize that earlier administration of a well-tolerated antiarrhythmic drug proven to reduce hospitalization may result in improved cardiovascular outcomes and quality of life in patients first-detected AF.\n\nThe purpose of this study is to determine if treatment with dronedarone on top of usual care is superior to usual care alone for the prevention of cardiovascular hospitalization or death from any cause in patients hospitalized with first-detected AF. All patients will be treated with guideline-recommended stroke prevention therapy according to the CHA2DS2-VASc score. The treatment follow-up period will be 12 months. There will be two follow-up visits. Consistent with the pragmatic nature of the trial, the first follow-up will occur between 3 -9 months and the 2nd will occur at 12 months (with a window of +/- 30 days). Approximately 3000 patients will be enrolled and randomly assigned (1:1) to study intervention. The study intervention will be dronedarone 400 mg twice daily in addition to usual care versus usual care alone.",
+            "detailedDescription": "Atrial fibrillation (AF) is the most common sustained arrhythmia encountered in clinical practice, accounting for one-third of arrhythmia-related hospitalizations.1 As many as 1 in 4 people develop AF over their lifetime after the age of 40 years. The prevalence and burden of AF in the United States is substantial; the age-adjusted incidence and prevalence has increased over the last 3 decades. Moreover, the number of Americans with AF is expected to increase 150% by 2050. The goals of care in the treatment of AF include (1) the management and reduction of risk factors, (2) prevention of tachycardia (rate control), (3) prevention of stroke, and (4) improvement of symptoms. Reduction or elimination of symptoms often requires rhythm control. Historically, randomized clinical trials have not demonstrated a mortality or stroke benefit with a rhythm control versus a rate control strategy.\n\nDespite the failure of prior randomized clinical trials to demonstrate the superiority of rhythm control, the recent Early Treatment of Atrial Fibrillation for Stroke Prevention 4 (EAST-AFNET 4) trial demonstrated that early introduction of a comprehensive rhythm-control strategy (within one year of diagnosis) is superior to guideline-based usual care in improving cardiovascular (CV) outcomes at a mean follow-up of 5 years. The EAST-AFNET 4 trial found that early rhythm control reduced the primary outcome of CV death, stroke, hospitalization for heart failure (HF), or acute coronary syndrome (HR 0.79, 96% confidence interval (CI) 0.66-0.94, p = 0.005). EAST-AFNET 4 also demonstrated a reduction in the risk of stroke with early introduction of rhythm control (HR 0.65, 95% CI 0.44-0.98), a finding that was also observed with dronedarone in the ATHENA trial. In addition, maintenance of sinus rhythm has been associated with improved quality of life and increased exercise capacity in some patients. Outside of clinical trials, a quality-of-life study from the Registry on Cardiac Rhythm Disorders Assessing the Control of Atrial Fibrillation (RECORD-AF) found that rhythm control was associated with better quality of life.\n\nThere are several antiarrhythmic drugs (AADs) available for rhythm control of AF. Class I antiarrhythmic agents are predominantly limited to younger patients without coronary artery or structural heart disease. Patients with advanced chronic kidney disease, prolonged QT intervals, and/or severe left ventricular hypertrophy should not be treated with sotalol or dofetilide. Even when sotalol or dofetilide can be used, patients are often hesitant to start a medication that requires an inpatient hospitalization for drug loading and laboratory evaluation every 3 months. Amiodarone has been shown to be the most effective AAD for maintaining sinus rhythm in patients with AF; however, based on its side effect profile, amiodarone is only recommended as a first-line agent under specific clinical circumstances. Moreover, despite its efficacy, amiodarone has high rates of discontinuation due to frequent adverse events. In addition to its unfavorable side effects, several studies, including those of patients at risk for sudden cardiac death, have demonstrated an association between amiodarone use and higher mortality, as well as lower functional status. In contrast to amiodarone, dronedarone is a much better tolerated antiarrhythmic medication. In randomized controlled trials, dronedarone has been shown to prevent recurrent AF, improve rate control, and decrease cardiovascular hospitalization in patients with AF.\n\nWhile there are several completed clinical trials that address treatment strategy in patients with symptomatic and recurrent AF, there are no randomized clinical trials that address treatment for first-detected or new-onset AF. After appropriate evaluation for oral anticoagulation, these patients are often started on an atrioventricular nodal blocking agent (beta-blocker or non-dihydropyridine calcium channel blocker). The investigators hypothesize that earlier administration of a well-tolerated antiarrhythmic drug proven to reduce hospitalization may result in improved quality of life and cardiovascular outcomes in patients with first-detected AF.\n\nRisk Assessment:\n\nDronedarone is approved by the Food and Drug Administration to reduce the risk of hospitalization for AF in patients with paroxysmal or persistent AF. The efficacy and safety of dronedarone 400 mg twice daily was evaluated in five controlled studies, ATHENA, ANDROMEDA, European Trial in Atrial Fibrillation or Flutter Patients Receiving Dronedarone for the Maintenance of Sinus Rhythm (EURIDIS), ADONIS, and Dronedarone Atrial FibrillatioN study after Electrical Cardioversion (DAFNE), involving more than 6,000 patients with including more than 3200 patients who received dronedarone. As with any therapeutic agent, there are known risks with dronedarone therapy. These risks include hepatic injury, heart failure exacerbation, increased exposure to digoxin, increased plasma concentration of tacrolimus, sirolimus, and other Cytochrome P450, family 3, subfamily A (CYP 3A) substrates, and very rare instances of pulmonary toxicity. The risks of dronedarone are felt to be outweighed by its benefits. The guideline recommendations provided by the European Society of Cardiology and American Heart Association (AHA)/American College of Cardiology (ACC)/Heart Rhythm Society (HRS) are commensurate with this risk benefit assessment.\n\nBenefit Assessment:\n\nWhile there are no completed randomized clinical trials to guide selection or initiation of rhythm control therapies in patients with first-detected AF, there are recent trials that suggest benefit with both dronedarone antiarrhythmic therapy and early-initiation of rhythm control in persons with AF. the recent EAST-AFNET 4 trial demonstrated that early introduction of a comprehensive rhythm-control strategy (within one year of diagnosis) is superior to usual guideline-recommended care in improving cardiovascular (CV) outcomes at 5 years. The median time from new-onset AF to randomization in the EAST-AFNET4 trial was 36 days. The trial found that early rhythm control reduced the primary outcome of CV death, stroke, hospitalization for HF, or acute coronary syndrome (HR 0.79, 95% confidence interval 0.66-0.94, p = 0.005). EAST-AFNET 4 also demonstrated a reduction in the risk of stroke with early introduction of rhythm control (HR 0.65, 95% CI 0.44-0.98), a finding that was also observed with dronedarone in the ATHENA trial. Thus, the investigators hypothesize that early initiation of dronedarone in patients with new-onset AF will lead to a reduction in CV hospitalization or death.\n\nOverall Design:\n\nDronedarone is approved by the Food and Drug Administration to reduce the risk of CV hospitalization in patients with AF or atrial flutter. However, it is unknown if dronedarone (or any antiarrhythmic medication) can reduce CV hospitalization or death in patients with first-detected AF. This trial has been designed to address this important question. In order to facilitate the trial enrollment, data collection, and a generalizability to clinical practice, the CHANGE AFIB study has been designed as an open-label pragmatic clinical trial nested within the Get With The Guidelines (GWTG) Atrial Fibrillation registry. At present the overall GWTG program is being implemented in over 2,300 hospitals across the U.S. and is comprised of over 9 million patient records, with an estimated 650,000 new patient records entered per year. The trial will utilize the existing GWTG registry network, data collection architecture, and experience to facilitate both enrollment and conduct of the trial.\n\nThe comparator arm will be \"usual care.\" Thus, this study will compare usual care plus dronedarone versus usual care alone. In most patients, the investigators anticipate usual care to include an atrioventricular nodal blocking agent (beta-blocker, non-dihydropyridine calcium channel blocker, or digoxin) without an antiarrhythmic. As dronedarone has anti-adrenergic rate controlling properties, a low dose of beta-blocker or calcium-channel blocker is recommended in the USPI when starting dronedarone. In the dronedarone arm concomitant digoxin use will be contraindicated due to P-gp interaction based upon data from the PALLAS trial. All patients will receive oral anticoagulation for stroke prevention according to current guideline recommendations.\n\nCHANGE AFIB will leverage several critical advantages as a pragmatic clinical trial. Data collection will be integrated into the Get With The Guidelines AFIB registry. The use of the GWTG-AFIB registry will also enhance subject recruitment and ensure the enrollment of a diverse group of patients. The randomized intervention will be compared with usual care thus further enhancing generalizability. Follow-up visits will be minimized to reduce patient burden. Moreover, follow-up visits will have \"windows\" to accommodate variation in follow-up intervals at different centers.\n\nJustification for Study Drug Intervention and Dose:\n\nDronedarone is a non-iodinated benzofuran similar to amiodarone but is not associated with thyroid or pulmonary toxicity in randomized clinical trials or post-marketing observational studies. Dronedarone has electrophysiological characteristics spanning all 4 Vaughan-Williams anti-arrhythmic classes, with primarily class III effects. Initial trials suggested that dronedarone prolonged the time to recurrence of AF and reduced cardiovascular death and hospitalization.\n\nThe landmark ATHENA trial evaluated the efficacy and safety of dronedarone in patients with atrial arrhythmias (atrial fibrillation or atrial flutter). This trial did not include patients with a recent history of New York Heart Association (NYHA) class IV heart failure or recent hospitalization for decompensated heart failure (\\<4 weeks). Approximately, 30% of the ATHENA population had NYHA class I-III heart failure. ATHENA demonstrated that dronedarone 400 mg twice daily (in combination with background therapy) reduced the combined endpoint of CV hospitalization or death from any cause by 24% (p\\<0.001) compared with placebo. Of course, the ATHENA trial was not conducted in the special population of patients with a new diagnosis of AF. There are no randomized trials or guideline recommendations for antiarrhythmic therapy at the time of first-detected AF. A subgroup analysis from the ATHENA trial suggests that optimal outcomes may be achieved in those patients with shorter duration of AF (time from diagnosis). Similar observations have also been made in patients undergoing other forms of rhythm control, including catheter ablation. In this trial, patients with first-detected AF will be randomized to dronedarone on top of usual care versus usual care alone. Patients randomized to the intervention arm will be prescribed and treated with Dronedarone 400 mg bid. This dose has been chosen as it is the Food and Drug Administration approved dose as well as the dose recommended in current international guidelines. Dronedarone has also been shown to be an effective rate control agent as well. In the ERATO study treatment with dronedarone 400 mg twice daily let to a mean reduction of 24.5 beat/min in patients with permanent AF when compared with placebo. In the EURIDIS/ADONIS studies the mean difference in patients with paroxysmal/persistent AF during AF recurrence was 14 beats/min. Moreover, the dronedarone treated patients experienced improved rate control without any reduction in exercise tolerance as measured by maximal exercise."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Atrial Fibrillation"
+            ],
+            "keywords": [
+                "Arrhythmias, Cardiac",
+                "Atrial Fibrillation",
+                "Anti-Arrhythmic Agents",
+                "Heterocyclic Compounds",
+                "Dronedarone",
+                "Multaq"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE4"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "Multicenter, prospective, randomized, open-label, pragmatic clinical trial",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 3000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Dronedarone",
+                    "type": "EXPERIMENTAL",
+                    "description": "In most patients, the investigators anticipate usual care to include an atrioventricular nodal blocking agent (beta-blocker, non-dihydropyridine calcium channel blocker, or digoxin) without an antiarrhythmic. As dronedarone has anti-adrenergic rate controlling properties, a low dose of beta-blocker or calcium-channel blocker is recommended in the United States Prescribing Information (USPI) when starting dronedarone. In the dronedarone arm concomitant digoxin use will be contraindicated due to P-gp interaction based upon data from the PALLAS trial. All patients will receive oral anticoagulation for stroke prevention according to current guideline recommendations.",
+                    "interventionNames": [
+                        "Drug: Dronedarone"
+                    ]
+                },
+                {
+                    "label": "Usual care",
+                    "type": "NO_INTERVENTION",
+                    "description": "In most patients, the investigators anticipate usual care to include an atrioventricular nodal blocking agent (beta-blocker, non-dihydropyridine calcium channel blocker, or digoxin) without an antiarrhythmic. All patients will receive oral anticoagulation for stroke prevention according to current guideline recommendations."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Dronedarone",
+                    "description": "Dronedarone 400 mg twice daily in addition to usual care",
+                    "armGroupLabels": [
+                        "Dronedarone"
+                    ],
+                    "otherNames": [
+                        "Multaq"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Cardiovascular Hospitalization or Death",
+                    "description": "First occurrence of unplanned CV hospitalization or death from any cause within 12 months of randomization. All unplanned hospitalizations (i.e. admission with an overnight stay in an acute care healthcare facility/hospital) for cardiovascular causes will be considered a cardiovascular hospitalization.",
+                    "timeFrame": "Evaluated through 12 months from randomization"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Win Ratio",
+                    "description": "Among the randomized patients, every patient in the dronedarone arm will be compared with every patient in the usual care arm. Within each pair of patients, the component outcomes will be compared in descending order of importance until one of the patients in the pair demonstrates a better outcome compared with the other. For the purpose of this trial the hierarchy of component outcomes are shown below. The components in the WIN ratio hierarchy are similar to the endpoints considered in the recent EAST AFNET4 trial.\n\nHierarchy of Outcomes for the WIN Ratio:\n\n1. All-cause mortality\n2. Ischemic stroke or systemic embolism\n3. Hospitalization for new/worsening diagnosis of heart failure\n4. Hospitalization for acute coronary syndrome",
+                    "timeFrame": "Evaluated through 12 months from randomization"
+                },
+                {
+                    "measure": "All-cause mortality",
+                    "description": "For descriptive purposes, deaths will be categorized by the site investigators according to the following categories: cardiovascular and non-cardiovascular. Cardiovascular deaths will be further classified into arrhythmic vs non-arrhythmic according the modified Hinkle-Thaler criteria, as used in several landmark cardiovascular trials. Patients who are well and (1) have a witnessed sudden collapse or (2) those found dead, but known to be alive and well in the previous 24 hours (e.g. no signs or symptoms of cardiorespiratory distress) will be defined as having arrhythmic death.",
+                    "timeFrame": "Evaluated through 12 months from randomization"
+                },
+                {
+                    "measure": "Ischemic stroke or systemic embolism",
+                    "description": "The occurrence of ischemic stroke will be defined as an acute episode of focal or global neurological dysfunction caused by brain, spinal cord, or retinal vascular injury as a result of hemorrhage or infarction. Symptoms or signs must persist \u226524 hours, unless the stroke is documented by CT, MRI or autopsy, in which case the duration of symptoms/signs may be less than 24 hours. Stroke may be classified as ischemic (including hemorrhagic transformation of ischemic stroke), hemorrhagic, or undetermined. Systemic embolism will be defined as acute arterial insufficiency or occlusion of the extremities or any non-CNS organ associated with clinical, imaging, surgical/autopsy evidence of arterial occlusion in the absence of other likely mechanism (e.g., trauma, atherosclerosis, or instrumentation).",
+                    "timeFrame": "Evaluated through 12 months from randomization"
+                },
+                {
+                    "measure": "Hospitalization for new/worsening diagnosis of heart failure",
+                    "description": "Hospitalization for new or worsening heart failure will be defined as any unplanned hospitalization (i.e. admission with an overnight stay in an acute care healthcare facility/hospital) due to a new diagnosis or worsening symptomatic heart failure",
+                    "timeFrame": "Evaluated through 12 months from randomization"
+                },
+                {
+                    "measure": "Hospitalization for acute coronary syndrome",
+                    "description": "Any hospitalization (i.e. admission with an overnight stay in an acute care healthcare facility/hospital) due to acute coronary syndrome.",
+                    "timeFrame": "Evaluated through 12 months from randomization"
+                },
+                {
+                    "measure": "Time to first unplanned cardiovascular hospitalization",
+                    "description": "Given the importance of CV hospitalization as an outcome from a clinical perspective, patient perspective, and economic perspective, there will be two analyses of CV hospitalization. The key secondary endpoint will be time to first unplanned CV hospitalization (similar to the component of the primary endpoint).",
+                    "timeFrame": "Evaluated through 12 months from randomization"
+                },
+                {
+                    "measure": "Unplanned cardiovascular hospitalizations--secondary analysis using Anderson-Gill extension",
+                    "description": "Given the importance of CV hospitalization as an outcome from a clinical perspective, patient perspective, and economic perspective, there will be two analyses of CV hospitalization. The second exploratory analysis of unplanned cardiovascular hospitalization will use a method to account for repeated events (Anderson-Gill extension).",
+                    "timeFrame": "Evaluated through 12 months from randomization"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Any unplanned arrhythmia-related hospitalization",
+                    "description": "Arrhythmia-Related Hospitalization will be defined as any unplanned hospitalization (i.e. admission with an overnight stay in an acute care healthcare facility/hospital) due to any tachy or brady-arrhythmia.",
+                    "timeFrame": "Evaluated through 12 months from randomization"
+                },
+                {
+                    "measure": "Number of participants who experience AF progression",
+                    "description": "AF Progression will be defined as the transition from (a) paroxysmal to persistent or (b) persistent to permanent AF.",
+                    "timeFrame": "Evaluated through 12 months from randomization"
+                },
+                {
+                    "measure": "Number of participants who undergo cardioversion (pharmacologic or electrical)",
+                    "description": "Cardioversion (either pharmacologic or electrical) with or without transesophageal echocardiographic guidance will be a tertiary endpoint.",
+                    "timeFrame": "Evaluated through 12 months from randomization"
+                },
+                {
+                    "measure": "Number of participants who have ablation of AF (catheter, surgical or hybrid) performed",
+                    "description": "Ablation of AF including catheter ablation, surgical ablation, or hybrid (endocardial and epicardial ablation) ablation will be a tertiary endpoint.",
+                    "timeFrame": "Evaluated through 12 months from randomization"
+                },
+                {
+                    "measure": "Days alive and outside of the hospital",
+                    "description": "Days Alive and Out of the Hospital. Days alive and out of the hospital (DAOH, also referred to as \"home time\") is an emerging clinical trial endpoint that is both pragmatic and patient centered. It is highly correlated with traditional time-to-event mortality and hospitalization outcomes.",
+                    "timeFrame": "Evaluated through 12 months from randomization"
+                },
+                {
+                    "measure": "Patient-Reported Quality of Life--AFEQT",
+                    "description": "The AFEQT is a 21-item, AF-specific health-related QOL questionnaire that assesses the impact of AF on patient-reported quality of life. The AFEQT includes a summary score (calculated from 18 of the questions) and subscale scores in three domains: symptoms, daily activities, and treatment concern. The summary and subscale scores range from 0 (corresponds to complete AF-related disability) to 100 (no AF-related disability). A change of 5 or more points in the AFEQT has been identified as a benchmark for a clinically meaningful difference in an individual patient.",
+                    "timeFrame": "At baseline and 12 months"
+                },
+                {
+                    "measure": "Patient-Reported Quality of Life--MAFSI",
+                    "description": "The MAFSI was developed as a modification and update of the AF Symptom Checklist. The trial will use a modified MAFSI questionnaire comprised of a 10-item AF symptom checklist that asks about frequency and severity of each symptom. Frequency of symptoms is recorded as 0 (never), 1 (rarely), 2 (sometimes), 3 (often), or 4 (always). These responses are summed for a total Frequency Score that ranges from 0 (no AF symptoms) to 40 (worst score). MAFSI Severity Scores are recorded as 1 (mild), 2 (moderate), or 3 (extreme). Severity scores are summed and range from 0 (no AF symptoms) to 30 (most severe AF symptoms). A clinically meaningful change in the MAFSI has not previously been established and therefore will be considered to be about \u00bc of the pooled baseline standard deviation (SD), or 1.6 points for the Frequency Score and 1.3 points for the Severity Score.",
+                    "timeFrame": "At baseline and 12 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age \\>=21 years.\n2. First-detected atrial fibrillation (defined as atrial fibrillation diagnosed in the previous 120 days).\n3. Electrocardiographic documentation of atrial fibrillation.\n4. Estimated life expectancy of at least 1 year.\n5. Patient or legal authorized representative capable of giving signed informed consent, which includes compliance with the requirements and restrictions listed in the informed consent form (ICF) and in this protocol.\n\nExclusion Criteria:\n\n1. Patients with prior or planned treatment with rhythm control, either catheter ablation or chronic (\\>7 days) antiarrhythmic drug therapy.\n\n3. Planned cardiothoracic surgery. 4. New York Heart Association class III or IV heart failure or a hospitalization for heart failure in the last 4 weeks.\n\n5. Patients with reduced ejection fraction (LVEF \u226440%). 6. Permanent atrial fibrillation. 7. Ineligible for oral anticoagulation, unless CHA2DS2-VASc is less than 3 in women or 2 in men.\n\n8. Bradycardia with a resting heart rate \\< 50 bpm 9. PR interval \\>280 msec or 2nd degree or 3rd degree atrioventricular block without a permanent pacemaker/cardiac implanted electronic device.\n\n10. Corrected QT interval \\>=500 msec. 11. Pregnancy or breast feeding. 12. Severe hepatic impairment in the opinion of the investigator.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "21 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "overallOfficials": [
+                {
+                    "name": "Jonathan P Piccini, MD, MHS",
+                    "affiliation": "Duke Clinical Research Organization",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Thomas Hospital",
+                    "city": "Fairhope",
+                    "state": "Alabama",
+                    "zip": "36532",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 30.52297,
+                        "lon": -87.90333
+                    }
+                },
+                {
+                    "facility": "Mercy Gilbert Medical Center",
+                    "city": "Gilbert",
+                    "state": "Arizona",
+                    "zip": "85297",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.35283,
+                        "lon": -111.78903
+                    }
+                },
+                {
+                    "facility": "HonorHealth Scottsdale Shea Medical Center",
+                    "city": "Scottsdale",
+                    "state": "Arizona",
+                    "zip": "85260",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.50921,
+                        "lon": -111.89903
+                    }
+                },
+                {
+                    "facility": "Los Angeles Medical Center (Kaiser Permenente)",
+                    "city": "Los Angeles",
+                    "state": "California",
+                    "zip": "90027",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 34.05223,
+                        "lon": -118.24368
+                    }
+                },
+                {
+                    "facility": "West Los Angeles Medical Center",
+                    "city": "Los Angeles",
+                    "state": "California",
+                    "zip": "90034",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 34.05223,
+                        "lon": -118.24368
+                    }
+                },
+                {
+                    "facility": "Cedars Sinai Medical Center",
+                    "city": "Los Angeles",
+                    "state": "California",
+                    "zip": "90048",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 34.05223,
+                        "lon": -118.24368
+                    }
+                },
+                {
+                    "facility": "UC Irvine Medical Center (AKA UCI Health)",
+                    "city": "Orange",
+                    "state": "California",
+                    "zip": "92868",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.78779,
+                        "lon": -117.85311
+                    }
+                },
+                {
+                    "facility": "Los Robles Health System - Los Robles Regional Medical Center",
+                    "city": "Thousand Oaks",
+                    "state": "California",
+                    "zip": "91360",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 34.17056,
+                        "lon": -118.83759
+                    }
+                },
+                {
+                    "facility": "UCLA Medical Center - Harbor",
+                    "city": "Torrance",
+                    "state": "California",
+                    "zip": "90502",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.83585,
+                        "lon": -118.34063
+                    }
+                },
+                {
+                    "facility": "Colorado Heart & Vascular Group - St. Anthony's Hospital",
+                    "city": "Lakewood",
+                    "state": "Colorado",
+                    "zip": "80228",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.70471,
+                        "lon": -105.08137
+                    }
+                },
+                {
+                    "facility": "Colorado Heart & Vascular Group - St. Anthony's North Health Campus",
+                    "city": "Westminster",
+                    "state": "Colorado",
+                    "zip": "80023",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.83665,
+                        "lon": -105.0372
+                    }
+                },
+                {
+                    "facility": "Christiana Hospital",
+                    "city": "Newark",
+                    "state": "Delaware",
+                    "zip": "19718",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.68372,
+                        "lon": -75.74966
+                    }
+                },
+                {
+                    "facility": "First Coast Cardiovascular Institute",
+                    "city": "Jacksonville",
+                    "state": "Florida",
+                    "zip": "32256",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 30.33218,
+                        "lon": -81.65565
+                    }
+                },
+                {
+                    "facility": "Ocean Wellness Center, LLC",
+                    "city": "Miami Gardens",
+                    "state": "Florida",
+                    "zip": "33169",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 25.94298,
+                        "lon": -80.24452
+                    }
+                },
+                {
+                    "facility": "Pharma Medical Innovations",
+                    "city": "Miami Lakes",
+                    "state": "Florida",
+                    "zip": "33014",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 25.90871,
+                        "lon": -80.30866
+                    }
+                },
+                {
+                    "facility": "The Angel Medical Research",
+                    "city": "Miami Lakes",
+                    "state": "Florida",
+                    "zip": "33156",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 25.90871,
+                        "lon": -80.30866
+                    }
+                },
+                {
+                    "facility": "Enmanuel Advanced Research Center, LLC",
+                    "city": "Miami",
+                    "state": "Florida",
+                    "zip": "33126",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 25.77427,
+                        "lon": -80.19366
+                    }
+                },
+                {
+                    "facility": "Life Spring Research Foundation, LLC",
+                    "city": "Miami",
+                    "state": "Florida",
+                    "zip": "33130",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 25.77427,
+                        "lon": -80.19366
+                    }
+                },
+                {
+                    "facility": "Nouvelle Clinical Research LLC",
+                    "city": "Miami",
+                    "state": "Florida",
+                    "zip": "33130",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 25.77427,
+                        "lon": -80.19366
+                    }
+                },
+                {
+                    "facility": "Golden Touch Clinical Research",
+                    "city": "Miami",
+                    "state": "Florida",
+                    "zip": "33144",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 25.77427,
+                        "lon": -80.19366
+                    }
+                },
+                {
+                    "facility": "Excellence Medical And Research, LLC",
+                    "city": "Miami",
+                    "state": "Florida",
+                    "zip": "33169",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 25.77427,
+                        "lon": -80.19366
+                    }
+                },
+                {
+                    "facility": "The Miami Research Group",
+                    "city": "Miami",
+                    "state": "Florida",
+                    "zip": "33186",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 25.77427,
+                        "lon": -80.19366
+                    }
+                },
+                {
+                    "facility": "Northside Hospital",
+                    "city": "Saint Petersburg",
+                    "state": "Florida",
+                    "zip": "33709",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 27.77086,
+                        "lon": -82.67927
+                    }
+                },
+                {
+                    "facility": "Guardian Angel Research Center",
+                    "city": "Tampa",
+                    "state": "Florida",
+                    "zip": "33614",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 27.94752,
+                        "lon": -82.45843
+                    }
+                },
+                {
+                    "facility": "Northeast Georgia Medical Center",
+                    "city": "Gainesville",
+                    "state": "Georgia",
+                    "zip": "30501",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 34.29788,
+                        "lon": -83.82407
+                    }
+                },
+                {
+                    "facility": "Georgia Arrhythmia Consultants and Research Institute",
+                    "city": "Macon",
+                    "state": "Georgia",
+                    "zip": "31201",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 32.84069,
+                        "lon": -83.6324
+                    }
+                },
+                {
+                    "facility": "Wellstar Kennestone Hospital",
+                    "city": "Marietta",
+                    "state": "Georgia",
+                    "zip": "30062",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.9526,
+                        "lon": -84.54993
+                    }
+                },
+                {
+                    "facility": "Mt Sinai Hospital Medical Center",
+                    "city": "Chicago",
+                    "state": "Illinois",
+                    "zip": "60608",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 41.85003,
+                        "lon": -87.65005
+                    }
+                },
+                {
+                    "facility": "Rush University Medical Center",
+                    "city": "Chicago",
+                    "state": "Illinois",
+                    "zip": "60612",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 41.85003,
+                        "lon": -87.65005
+                    }
+                },
+                {
+                    "facility": "University of Illinois Hospital",
+                    "city": "Chicago",
+                    "state": "Illinois",
+                    "zip": "60612",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 41.85003,
+                        "lon": -87.65005
+                    }
+                },
+                {
+                    "facility": "Riverside Medical Center",
+                    "city": "Kankakee",
+                    "state": "Illinois",
+                    "zip": "60901",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 41.12003,
+                        "lon": -87.86115
+                    }
+                },
+                {
+                    "facility": "Loyola University Medical Center",
+                    "city": "Maywood",
+                    "state": "Illinois",
+                    "zip": "60153",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 41.8792,
+                        "lon": -87.84312
+                    }
+                },
+                {
+                    "facility": "Captain James A Lovell Federal Health Care Center",
+                    "city": "North Chicago",
+                    "state": "Illinois",
+                    "zip": "60064",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 42.32558,
+                        "lon": -87.84118
+                    }
+                },
+                {
+                    "facility": "Proctor Community Hospital",
+                    "city": "Peoria",
+                    "state": "Illinois",
+                    "zip": "61614",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.69365,
+                        "lon": -89.58899
+                    }
+                },
+                {
+                    "facility": "Methodist Medical Center of Illinois",
+                    "city": "Peoria",
+                    "state": "Illinois",
+                    "zip": "61636",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.69365,
+                        "lon": -89.58899
+                    }
+                },
+                {
+                    "facility": "Trinity Rock Island",
+                    "city": "Rock Island",
+                    "state": "Illinois",
+                    "zip": "61201",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 41.50948,
+                        "lon": -90.57875
+                    }
+                },
+                {
+                    "facility": "St. Elizabeth's Hospital of the Hospital Sisters of the Third Order of St. Francis",
+                    "city": "Springfield",
+                    "state": "Illinois",
+                    "zip": "62769",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.80172,
+                        "lon": -89.64371
+                    }
+                },
+                {
+                    "facility": "St. John's Hospital of the Hospital Sisters of the Third Order of St. Francis",
+                    "city": "Springfield",
+                    "state": "Illinois",
+                    "zip": "62769",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.80172,
+                        "lon": -89.64371
+                    }
+                },
+                {
+                    "facility": "Carle Foundation Hospital",
+                    "city": "Urbana",
+                    "state": "Illinois",
+                    "zip": "61801",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.11059,
+                        "lon": -88.20727
+                    }
+                },
+                {
+                    "facility": "Parkview Hospital, Inc.",
+                    "city": "Fort Wayne",
+                    "state": "Indiana",
+                    "zip": "46845",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 41.1306,
+                        "lon": -85.12886
+                    }
+                },
+                {
+                    "facility": "Ascension St Vincent Hospital - Indianapolis",
+                    "city": "Indianapolis",
+                    "state": "Indiana",
+                    "zip": "46260",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.76838,
+                        "lon": -86.15804
+                    }
+                },
+                {
+                    "facility": "Kansas City Heart and Vascular Specialists at Providence Medical Center",
+                    "city": "Kansas City",
+                    "state": "Kansas",
+                    "zip": "66112",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.11417,
+                        "lon": -94.62746
+                    }
+                },
+                {
+                    "facility": "Overland Park Regional Medical Center",
+                    "city": "Overland Park",
+                    "state": "Kansas",
+                    "zip": "66215",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 38.98223,
+                        "lon": -94.67079
+                    }
+                },
+                {
+                    "facility": "Baptist Health Lexington",
+                    "city": "Lexington",
+                    "state": "Kentucky",
+                    "zip": "40223",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 37.98869,
+                        "lon": -84.47772
+                    }
+                },
+                {
+                    "facility": "Saint Joseph Hospital",
+                    "city": "Lexington",
+                    "state": "Kentucky",
+                    "zip": "40504",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 37.98869,
+                        "lon": -84.47772
+                    }
+                },
+                {
+                    "facility": "Heart Clinic of Hammond",
+                    "city": "Hammond",
+                    "state": "Louisiana",
+                    "zip": "70403",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 30.50463,
+                        "lon": -90.46293
+                    }
+                },
+                {
+                    "facility": "Tulane Medical Center",
+                    "city": "New Orleans",
+                    "state": "Louisiana",
+                    "zip": "70112",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 29.95465,
+                        "lon": -90.07507
+                    }
+                },
+                {
+                    "facility": "Luminis Health Anne Arundel Medical Center",
+                    "city": "Annapolis",
+                    "state": "Maryland",
+                    "zip": "21401",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 38.97845,
+                        "lon": -76.49218
+                    }
+                },
+                {
+                    "facility": "Saint Agnes Hospital",
+                    "city": "Baltimore",
+                    "state": "Maryland",
+                    "zip": "21229",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.29038,
+                        "lon": -76.61219
+                    }
+                },
+                {
+                    "facility": "Adventist Healthcare Shady Grove Medical Center",
+                    "city": "Rockville",
+                    "state": "Maryland",
+                    "zip": "20850",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.084,
+                        "lon": -77.15276
+                    }
+                },
+                {
+                    "facility": "Brigham and Womens Hospital",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02115",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                },
+                {
+                    "facility": "McLaren Bay Region",
+                    "city": "Bay City",
+                    "state": "Michigan",
+                    "zip": "48708",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 43.59447,
+                        "lon": -83.88886
+                    }
+                },
+                {
+                    "facility": "DMC Harper University Hospital (AKA Wayne State University Hospital)",
+                    "city": "Detroit",
+                    "state": "Michigan",
+                    "zip": "48201",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 42.33143,
+                        "lon": -83.04575
+                    }
+                },
+                {
+                    "facility": "Sparrow Hospital",
+                    "city": "Lansing",
+                    "state": "Michigan",
+                    "zip": "48912",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 42.73253,
+                        "lon": -84.55553
+                    }
+                },
+                {
+                    "facility": "McLaren Macomb",
+                    "city": "Mount Clemens",
+                    "state": "Michigan",
+                    "zip": "48043",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 42.59726,
+                        "lon": -82.87798
+                    }
+                },
+                {
+                    "facility": "Trinity Health Ann Arbor Hospital - Michigan Heart",
+                    "city": "Ypsilanti",
+                    "state": "Michigan",
+                    "zip": "48197",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 42.24115,
+                        "lon": -83.61299
+                    }
+                },
+                {
+                    "facility": "Minneapolis VA Health Care System",
+                    "city": "Minneapolis",
+                    "state": "Minnesota",
+                    "zip": "55417",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 44.97997,
+                        "lon": -93.26384
+                    }
+                },
+                {
+                    "facility": "University Hospital - University of Missouri",
+                    "city": "Columbia",
+                    "state": "Missouri",
+                    "zip": "65211",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 38.95171,
+                        "lon": -92.33407
+                    }
+                },
+                {
+                    "facility": "Barnes-Jewish Hospital (AKA Washington Univ)",
+                    "city": "Saint Louis",
+                    "state": "Missouri",
+                    "zip": "63110",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 38.62727,
+                        "lon": -90.19789
+                    }
+                },
+                {
+                    "facility": "SSM Health Saint Louis University Hospital",
+                    "city": "Saint Louis",
+                    "state": "Missouri",
+                    "zip": "63110",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 38.62727,
+                        "lon": -90.19789
+                    }
+                },
+                {
+                    "facility": "Mercy Hospital Springfield",
+                    "city": "Springfield",
+                    "state": "Missouri",
+                    "zip": "65804",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 37.21533,
+                        "lon": -93.29824
+                    }
+                },
+                {
+                    "facility": "CHI Health Creighton University Medical Center - Bergan Mercy",
+                    "city": "Omaha",
+                    "state": "Nebraska",
+                    "zip": "68124",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 41.25626,
+                        "lon": -95.94043
+                    }
+                },
+                {
+                    "facility": "Cooper University Hospital",
+                    "city": "Camden",
+                    "state": "New Jersey",
+                    "zip": "08103",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.92595,
+                        "lon": -75.11962
+                    }
+                },
+                {
+                    "facility": "The Valley Hospital",
+                    "city": "Ridgewood",
+                    "state": "New Jersey",
+                    "zip": "07450",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.97926,
+                        "lon": -74.11653
+                    }
+                },
+                {
+                    "facility": "Albany Medical Center",
+                    "city": "Albany",
+                    "state": "New York",
+                    "zip": "12208",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 42.65258,
+                        "lon": -73.75623
+                    }
+                },
+                {
+                    "facility": "NYC Health and Hospitals - Lincoln",
+                    "city": "Bronx",
+                    "state": "New York",
+                    "zip": "10451",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.84985,
+                        "lon": -73.86641
+                    }
+                },
+                {
+                    "facility": "NYC Health and Hospitals - Jacobi",
+                    "city": "Bronx",
+                    "state": "New York",
+                    "zip": "10461",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.84985,
+                        "lon": -73.86641
+                    }
+                },
+                {
+                    "facility": "NYC Health and Hospitals - North Central Bronx",
+                    "city": "Bronx",
+                    "state": "New York",
+                    "zip": "10467",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.84985,
+                        "lon": -73.86641
+                    }
+                },
+                {
+                    "facility": "NewYork-Presbyterian/Columbia University Irving Medical Center",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10032",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "Memorial Sloan Kettering",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10065",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "DiGiovanna Institute for Medical Education & Research",
+                    "city": "North Massapequa",
+                    "state": "New York",
+                    "zip": "11758",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.70093,
+                        "lon": -73.46207
+                    }
+                },
+                {
+                    "facility": "Duke University Hospital",
+                    "city": "Durham",
+                    "state": "North Carolina",
+                    "zip": "27705",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 35.99403,
+                        "lon": -78.89862
+                    }
+                },
+                {
+                    "facility": "Durham VA Health Care System",
+                    "city": "Durham",
+                    "state": "North Carolina",
+                    "zip": "27705",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 35.99403,
+                        "lon": -78.89862
+                    }
+                },
+                {
+                    "facility": "WakeMed Raleigh Campus",
+                    "city": "Raleigh",
+                    "state": "North Carolina",
+                    "zip": "27610",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 35.7721,
+                        "lon": -78.63861
+                    }
+                },
+                {
+                    "facility": "New Hanover Regional Medical Center",
+                    "city": "Wilmington",
+                    "state": "North Carolina",
+                    "zip": "28411",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 34.22573,
+                        "lon": -77.94471
+                    }
+                },
+                {
+                    "facility": "Trinity Hospital",
+                    "city": "Minot",
+                    "state": "North Dakota",
+                    "zip": "58702",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 48.23251,
+                        "lon": -101.29627
+                    }
+                },
+                {
+                    "facility": "The MetroHealth System",
+                    "city": "Cleveland",
+                    "state": "Ohio",
+                    "zip": "44109",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 41.4995,
+                        "lon": -81.69541
+                    }
+                },
+                {
+                    "facility": "Kettering Health Dayton",
+                    "city": "Dayton",
+                    "state": "Ohio",
+                    "zip": "45405",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.75895,
+                        "lon": -84.19161
+                    }
+                },
+                {
+                    "facility": "Miami Valley Hospital",
+                    "city": "Dayton",
+                    "state": "Ohio",
+                    "zip": "45409",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.75895,
+                        "lon": -84.19161
+                    }
+                },
+                {
+                    "facility": "Kettering Medical Center",
+                    "city": "Kettering",
+                    "state": "Ohio",
+                    "zip": "45429",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.6895,
+                        "lon": -84.16883
+                    }
+                },
+                {
+                    "facility": "McLaren - St Lukes Hospital",
+                    "city": "Maumee",
+                    "state": "Ohio",
+                    "zip": "43537",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 41.56283,
+                        "lon": -83.65382
+                    }
+                },
+                {
+                    "facility": "Wooster Community Hospital Health System",
+                    "city": "Wooster",
+                    "state": "Ohio",
+                    "zip": "44691",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.80517,
+                        "lon": -81.93646
+                    }
+                },
+                {
+                    "facility": "Oklahoma City VA Health Care System",
+                    "city": "Oklahoma City",
+                    "state": "Oklahoma",
+                    "zip": "73104",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 35.46756,
+                        "lon": -97.51643
+                    }
+                },
+                {
+                    "facility": "University of Oklahoma Health Sciences Center",
+                    "city": "Oklahoma City",
+                    "state": "Oklahoma",
+                    "zip": "73104",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 35.46756,
+                        "lon": -97.51643
+                    }
+                },
+                {
+                    "facility": "Penn State Health Holy Spirit Medical Center",
+                    "city": "Camp Hill",
+                    "state": "Pennsylvania",
+                    "zip": "17011",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.23981,
+                        "lon": -76.91997
+                    }
+                },
+                {
+                    "facility": "Penn State Health Milton S Hershey Medical Center",
+                    "city": "Hershey",
+                    "state": "Pennsylvania",
+                    "zip": "17033",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.28592,
+                        "lon": -76.65025
+                    }
+                },
+                {
+                    "facility": "Penn State Health St Joseph Medical Center - Main Campus",
+                    "city": "Reading",
+                    "state": "Pennsylvania",
+                    "zip": "19605",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.33565,
+                        "lon": -75.92687
+                    }
+                },
+                {
+                    "facility": "Ascension Saint Thomas Midtown",
+                    "city": "Nashville",
+                    "state": "Tennessee",
+                    "zip": "37236",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 36.16589,
+                        "lon": -86.78444
+                    }
+                },
+                {
+                    "facility": "Ascension Seton Medical Center Austin",
+                    "city": "Austin",
+                    "state": "Texas",
+                    "zip": "78723",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 30.26715,
+                        "lon": -97.74306
+                    }
+                },
+                {
+                    "facility": "Texas Health Fort Worth (FKA Texas Health Harris Methodist Hospital Fort Worth)",
+                    "city": "Fort Worth",
+                    "state": "Texas",
+                    "zip": "76104",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 32.72541,
+                        "lon": -97.32085
+                    }
+                },
+                {
+                    "facility": "Memorial Hermann - Texas Medical Center",
+                    "city": "Houston",
+                    "state": "Texas",
+                    "zip": "77030",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 29.76328,
+                        "lon": -95.36327
+                    }
+                },
+                {
+                    "facility": "Texas Institute of Cardiology",
+                    "city": "McKinney",
+                    "state": "Texas",
+                    "zip": "75071",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.19762,
+                        "lon": -96.61527
+                    }
+                },
+                {
+                    "facility": "Synapse Clinical Research",
+                    "city": "Missouri City",
+                    "state": "Texas",
+                    "zip": "77549",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 29.61857,
+                        "lon": -95.53772
+                    }
+                },
+                {
+                    "facility": "University Hospital at University of Texas San Antonio",
+                    "city": "San Antonio",
+                    "state": "Texas",
+                    "zip": "78229",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 29.42412,
+                        "lon": -98.49363
+                    }
+                },
+                {
+                    "facility": "University of Utah Hospital",
+                    "city": "Salt Lake City",
+                    "state": "Utah",
+                    "zip": "84132",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.76078,
+                        "lon": -111.89105
+                    }
+                },
+                {
+                    "facility": "Chippenham and Johnston Willis Medical Center",
+                    "city": "Richmond",
+                    "state": "Virginia",
+                    "zip": "23225",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 37.55376,
+                        "lon": -77.46026
+                    }
+                },
+                {
+                    "facility": "Hunter Holmes McGuire VA Medical Center (AKA Richmond VA Medical Center)",
+                    "city": "Richmond",
+                    "state": "Virginia",
+                    "zip": "23249",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 37.55376,
+                        "lon": -77.46026
+                    }
+                },
+                {
+                    "facility": "JW Ruby Memorial Hospital",
+                    "city": "Morgantown",
+                    "state": "West Virginia",
+                    "zip": "26506",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.62953,
+                        "lon": -79.9559
+                    }
+                },
+                {
+                    "facility": "Mayo Clinic Hospital - Franciscan Healthcare La Crosse",
+                    "city": "La Crosse",
+                    "state": "Wisconsin",
+                    "zip": "54601",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 43.80136,
+                        "lon": -91.23958
+                    }
+                },
+                {
+                    "facility": "UW Health at the American Center (AKA UW Health East Madison Hospital)",
+                    "city": "Madison",
+                    "state": "Wisconsin",
+                    "zip": "53718",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 43.07305,
+                        "lon": -89.40123
+                    }
+                },
+                {
+                    "facility": "University Hospital - University of Wisconsin-Madison",
+                    "city": "Madison",
+                    "state": "Wisconsin",
+                    "zip": "53792",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 43.07305,
+                        "lon": -89.40123
+                    }
+                },
+                {
+                    "facility": "Marshfield Medical Center",
+                    "city": "Marshfield",
+                    "state": "Wisconsin",
+                    "zip": "54449",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 44.66885,
+                        "lon": -90.1718
+                    }
+                },
+                {
+                    "facility": "Marshfield Medical Center",
+                    "city": "Weston",
+                    "state": "Wisconsin",
+                    "zip": "54476",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 44.8908,
+                        "lon": -89.54762
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "21177058",
+                    "type": "BACKGROUND",
+                    "citation": "Wann LS, Curtis AB, January CT, Ellenbogen KA, Lowe JE, Estes NA 3rd, Page RL, Ezekowitz MD, Slotwiner DJ, Jackman WM, Stevenson WG, Tracy CM, Fuster V, Ryden LE, Cannom DS, Le Heuzey JY, Crijns HJ, Lowe JE, Curtis AB, Olsson SB, Ellenbogen KA, Prystowsky EN, Halperin JL, Tamargo JL, Kay GN, Wann LS, Jacobs AK, Anderson JL, Albert N, Hochman JS, Buller CE, Kushner FG, Creager MA, Ohman EM, Ettinger SM, Stevenson WG, Guyton RA, Tarkington LG, Halperin JL, Yancy CW; ACCF/AHA/HRS. 2011 ACCF/AHA/HRS focused update on the management of patients with atrial fibrillation (Updating the 2006 Guideline): a report of the American College of Cardiology Foundation/American Heart Association Task Force on Practice Guidelines. J Am Coll Cardiol. 2011 Jan 11;57(2):223-42. doi: 10.1016/j.jacc.2010.10.001. Epub 2010 Dec 21. No abstract available."
+                },
+                {
+                    "pmid": "15313941",
+                    "type": "BACKGROUND",
+                    "citation": "Lloyd-Jones DM, Wang TJ, Leip EP, Larson MG, Levy D, Vasan RS, D'Agostino RB, Massaro JM, Beiser A, Wolf PA, Benjamin EJ. Lifetime risk for development of atrial fibrillation: the Framingham Heart Study. Circulation. 2004 Aug 31;110(9):1042-6. doi: 10.1161/01.CIR.0000140263.20897.42. Epub 2004 Aug 16."
+                },
+                {
+                    "pmid": "7864703",
+                    "type": "BACKGROUND",
+                    "citation": "Feinberg WM, Blackshear JL, Laupacis A, Kronmal R, Hart RG. Prevalence, age distribution, and gender of patients with atrial fibrillation. Analysis and implications. Arch Intern Med. 1995 Mar 13;155(5):469-73."
+                },
+                {
+                    "pmid": "16818816",
+                    "type": "BACKGROUND",
+                    "citation": "Miyasaka Y, Barnes ME, Gersh BJ, Cha SS, Bailey KR, Abhayaratna WP, Seward JB, Tsang TS. Secular trends in incidence of atrial fibrillation in Olmsted County, Minnesota, 1980 to 2000, and implications on the projections for future prevalence. Circulation. 2006 Jul 11;114(2):119-25. doi: 10.1161/CIRCULATIONAHA.105.595140. Epub 2006 Jul 3. Erratum In: Circulation. 2006 Sep 12;114(11):e498."
+                },
+                {
+                    "pmid": "25446299",
+                    "type": "BACKGROUND",
+                    "citation": "Chamberlain AM, Gersh BJ, Alonso A, Chen LY, Berardi C, Manemann SM, Killian JM, Weston SA, Roger VL. Decade-long trends in atrial fibrillation incidence and survival: a community study. Am J Med. 2015 Mar;128(3):260-7.e1. doi: 10.1016/j.amjmed.2014.10.030. Epub 2014 Nov 8."
+                },
+                {
+                    "pmid": "18312767",
+                    "type": "BACKGROUND",
+                    "citation": "Novaro GM, Asher CR, Bhatt DL, Moliterno DJ, Harrington RA, Lincoff AM, Newby LK, Tcheng JE, Hsu AP, Pinski SL. Meta-analysis comparing reported frequency of atrial fibrillation after acute coronary syndromes in Asians versus whites. Am J Cardiol. 2008 Feb 15;101(4):506-9. doi: 10.1016/j.amjcard.2007.09.098. Epub 2007 Dec 20."
+                },
+                {
+                    "pmid": "11343485",
+                    "type": "BACKGROUND",
+                    "citation": "Go AS, Hylek EM, Phillips KA, Chang Y, Henault LE, Selby JV, Singer DE. Prevalence of diagnosed atrial fibrillation in adults: national implications for rhythm management and stroke prevention: the AnTicoagulation and Risk Factors in Atrial Fibrillation (ATRIA) Study. JAMA. 2001 May 9;285(18):2370-5. doi: 10.1001/jama.285.18.2370."
+                },
+                {
+                    "pmid": "8037127",
+                    "type": "BACKGROUND",
+                    "citation": "Furberg CD, Psaty BM, Manolio TA, Gardin JM, Smith VE, Rautaharju PM. Prevalence of atrial fibrillation in elderly subjects (the Cardiovascular Health Study). Am J Cardiol. 1994 Aug 1;74(3):236-41. doi: 10.1016/0002-9149(94)90363-8."
+                },
+                {
+                    "pmid": "9337224",
+                    "type": "BACKGROUND",
+                    "citation": "Psaty BM, Manolio TA, Kuller LH, Kronmal RA, Cushman M, Fried LP, White R, Furberg CD, Rautaharju PM. Incidence of and risk factors for atrial fibrillation in older adults. Circulation. 1997 Oct 7;96(7):2455-61. doi: 10.1161/01.cir.96.7.2455."
+                },
+                {
+                    "pmid": "8114238",
+                    "type": "BACKGROUND",
+                    "citation": "Benjamin EJ, Levy D, Vaziri SM, D'Agostino RB, Belanger AJ, Wolf PA. Independent risk factors for atrial fibrillation in a population-based cohort. The Framingham Heart Study. JAMA. 1994 Mar 16;271(11):840-4."
+                },
+                {
+                    "pmid": "12466506",
+                    "type": "BACKGROUND",
+                    "citation": "Wyse DG, Waldo AL, DiMarco JP, Domanski MJ, Rosenberg Y, Schron EB, Kellen JC, Greene HL, Mickel MC, Dalquist JE, Corley SD; Atrial Fibrillation Follow-up Investigation of Rhythm Management (AFFIRM) Investigators. A comparison of rate control and rhythm control in patients with atrial fibrillation. N Engl J Med. 2002 Dec 5;347(23):1825-33. doi: 10.1056/NEJMoa021328."
+                },
+                {
+                    "pmid": "18565859",
+                    "type": "BACKGROUND",
+                    "citation": "Roy D, Talajic M, Nattel S, Wyse DG, Dorian P, Lee KL, Bourassa MG, Arnold JM, Buxton AE, Camm AJ, Connolly SJ, Dubuc M, Ducharme A, Guerra PG, Hohnloser SH, Lambert J, Le Heuzey JY, O'Hara G, Pedersen OD, Rouleau JL, Singh BN, Stevenson LW, Stevenson WG, Thibault B, Waldo AL; Atrial Fibrillation and Congestive Heart Failure Investigators. Rhythm control versus rate control for atrial fibrillation and heart failure. N Engl J Med. 2008 Jun 19;358(25):2667-77. doi: 10.1056/NEJMoa0708789."
+                },
+                {
+                    "pmid": "12466507",
+                    "type": "BACKGROUND",
+                    "citation": "Van Gelder IC, Hagens VE, Bosker HA, Kingma JH, Kamp O, Kingma T, Said SA, Darmanata JI, Timmermans AJ, Tijssen JG, Crijns HJ; Rate Control versus Electrical Cardioversion for Persistent Atrial Fibrillation Study Group. A comparison of rate control and rhythm control in patients with recurrent persistent atrial fibrillation. N Engl J Med. 2002 Dec 5;347(23):1834-40. doi: 10.1056/NEJMoa021375."
+                },
+                {
+                    "pmid": "32865375",
+                    "type": "BACKGROUND",
+                    "citation": "Kirchhof P, Camm AJ, Goette A, Brandes A, Eckardt L, Elvan A, Fetsch T, van Gelder IC, Haase D, Haegeli LM, Hamann F, Heidbuchel H, Hindricks G, Kautzner J, Kuck KH, Mont L, Ng GA, Rekosz J, Schoen N, Schotten U, Suling A, Taggeselle J, Themistoclakis S, Vettorazzi E, Vardas P, Wegscheider K, Willems S, Crijns HJGM, Breithardt G; EAST-AFNET 4 Trial Investigators. Early Rhythm-Control Therapy in Patients with Atrial Fibrillation. N Engl J Med. 2020 Oct 1;383(14):1305-1316. doi: 10.1056/NEJMoa2019422. Epub 2020 Aug 29."
+                },
+                {
+                    "pmid": "25387780",
+                    "type": "BACKGROUND",
+                    "citation": "Ha AC, Breithardt G, Camm AJ, Crijns HJ, Fitzmaurice GM, Kowey PR, Le Heuzey JY, Naditch-Brule L, Prystowsky EN, Schwartz PJ, Torp-Pedersen C, Weintraub WS, Dorian P. Health-related quality of life in patients with atrial fibrillation treated with rhythm control versus rate control: insights from a prospective international registry (Registry on Cardiac Rhythm Disorders Assessing the Control of Atrial Fibrillation: RECORD-AF). Circ Cardiovasc Qual Outcomes. 2014 Nov;7(6):896-904. doi: 10.1161/HCQ.0000000000000011. Epub 2014 Nov 11."
+                },
+                {
+                    "pmid": "24685669",
+                    "type": "BACKGROUND",
+                    "citation": "January CT, Wann LS, Alpert JS, Calkins H, Cigarroa JE, Cleveland JC Jr, Conti JB, Ellinor PT, Ezekowitz MD, Field ME, Murray KT, Sacco RL, Stevenson WG, Tchou PJ, Tracy CM, Yancy CW; American College of Cardiology/American Heart Association Task Force on Practice Guidelines. 2014 AHA/ACC/HRS guideline for the management of patients with atrial fibrillation: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines and the Heart Rhythm Society. J Am Coll Cardiol. 2014 Dec 2;64(21):e1-76. doi: 10.1016/j.jacc.2014.03.022. Epub 2014 Mar 28. No abstract available. Erratum In: J Am Coll Cardiol. 2014 Dec 2;64(21):2305-7."
+                },
+                {
+                    "pmid": "10738049",
+                    "type": "BACKGROUND",
+                    "citation": "Roy D, Talajic M, Dorian P, Connolly S, Eisenberg MJ, Green M, Kus T, Lambert J, Dubuc M, Gagne P, Nattel S, Thibault B. Amiodarone to prevent recurrence of atrial fibrillation. Canadian Trial of Atrial Fibrillation Investigators. N Engl J Med. 2000 Mar 30;342(13):913-20. doi: 10.1056/NEJM200003303421302."
+                },
+                {
+                    "pmid": "15872201",
+                    "type": "BACKGROUND",
+                    "citation": "Singh BN, Singh SN, Reda DJ, Tang XC, Lopez B, Harris CL, Fletcher RD, Sharma SC, Atwood JE, Jacobson AK, Lewis HD Jr, Raisch DW, Ezekowitz MD; Sotalol Amiodarone Atrial Fibrillation Efficacy Trial (SAFE-T) Investigators. Amiodarone versus sotalol for atrial fibrillation. N Engl J Med. 2005 May 5;352(18):1861-72. doi: 10.1056/NEJMoa041705."
+                },
+                {
+                    "pmid": "12849654",
+                    "type": "BACKGROUND",
+                    "citation": "AFFIRM First Antiarrhythmic Drug Substudy Investigators. Maintenance of sinus rhythm in patients with atrial fibrillation: an AFFIRM substudy of the first antiarrhythmic drug. J Am Coll Cardiol. 2003 Jul 2;42(1):20-9. doi: 10.1016/s0735-1097(03)00559-x."
+                },
+                {
+                    "pmid": "10871966",
+                    "type": "BACKGROUND",
+                    "citation": "Goldschlager N, Epstein AE, Naccarelli G, Olshansky B, Singh B. Practical guidelines for clinicians who treat patients with amiodarone. Practice Guidelines Subcommittee, North American Society of Pacing and Electrophysiology. Arch Intern Med. 2000 Jun 26;160(12):1741-8. doi: 10.1001/archinte.160.12.1741."
+                },
+                {
+                    "pmid": "19917887",
+                    "type": "BACKGROUND",
+                    "citation": "Packer DL, Prutkin JM, Hellkamp AS, Mitchell LB, Bernstein RC, Wood F, Boehmer JP, Carlson MD, Frantz RP, McNulty SE, Rogers JG, Anderson J, Johnson GW, Walsh MN, Poole JE, Mark DB, Lee KL, Bardy GH. Impact of implantable cardioverter-defibrillator, amiodarone, and placebo on the mode of death in stable patients with heart failure: analysis from the sudden cardiac death in heart failure trial. Circulation. 2009 Dec 1;120(22):2170-6. doi: 10.1161/CIRCULATIONAHA.109.853689. Epub 2009 Nov 16. Erratum In: Circulation. 2010 Feb 16;121(6):e39."
+                },
+                {
+                    "pmid": "24727258",
+                    "type": "BACKGROUND",
+                    "citation": "Fishbein DP, Hellkamp AS, Mark DB, Walsh MN, Poole JE, Anderson J, Johnson G, Lee KL, Bardy GH; SCD-HeFT Investigators. Use of the 6-min walk distance to identify variations in treatment benefits from implantable cardioverter-defibrillator and amiodarone: results from the SCD-HeFT (Sudden Cardiac Death in Heart Failure Trial). J Am Coll Cardiol. 2014 Jun 17;63(23):2560-2568. doi: 10.1016/j.jacc.2014.02.602. Epub 2014 Apr 9."
+                },
+                {
+                    "pmid": "18082495",
+                    "type": "BACKGROUND",
+                    "citation": "Thomas KL, Al-Khatib SM, Lokhnygina Y, Solomon SD, Kober L, McMurray JJ, Califf RM, Velazquez EJ. Amiodarone use after acute myocardial infarction complicated by heart failure and/or left ventricular dysfunction may be associated with excess mortality. Am Heart J. 2008 Jan;155(1):87-93. doi: 10.1016/j.ahj.2007.09.010. Epub 2007 Oct 25."
+                },
+                {
+                    "pmid": "22032709",
+                    "type": "BACKGROUND",
+                    "citation": "Saksena S, Slee A, Waldo AL, Freemantle N, Reynolds M, Rosenberg Y, Rathod S, Grant S, Thomas E, Wyse DG. Cardiovascular outcomes in the AFFIRM Trial (Atrial Fibrillation Follow-Up Investigation of Rhythm Management). An assessment of individual antiarrhythmic drug therapies compared with rate control with propensity score-matched analyses. J Am Coll Cardiol. 2011 Nov 1;58(19):1975-85. doi: 10.1016/j.jacc.2011.07.036."
+                },
+                {
+                    "pmid": "19744618",
+                    "type": "BACKGROUND",
+                    "citation": "Piccini JP, Hasselblad V, Peterson ED, Washam JB, Califf RM, Kong DF. Comparative efficacy of dronedarone and amiodarone for the maintenance of sinus rhythm in patients with atrial fibrillation. J Am Coll Cardiol. 2009 Sep 15;54(12):1089-95. doi: 10.1016/j.jacc.2009.04.085. Erratum In: J Am Coll Cardiol. 2010 May 11;55(19):2185."
+                },
+                {
+                    "pmid": "19213680",
+                    "type": "BACKGROUND",
+                    "citation": "Hohnloser SH, Crijns HJ, van Eickels M, Gaudin C, Page RL, Torp-Pedersen C, Connolly SJ; ATHENA Investigators. Effect of dronedarone on cardiovascular events in atrial fibrillation. N Engl J Med. 2009 Feb 12;360(7):668-78. doi: 10.1056/NEJMoa0803778. Erratum In: N Engl J Med. 2009 Jun 4;360(23):2487. N Engl J Med. 2011 Apr 14;364(15):1481."
+                },
+                {
+                    "pmid": "17804843",
+                    "type": "BACKGROUND",
+                    "citation": "Singh BN, Connolly SJ, Crijns HJ, Roy D, Kowey PR, Capucci A, Radzik D, Aliot EM, Hohnloser SH; EURIDIS and ADONIS Investigators. Dronedarone for maintenance of sinus rhythm in atrial fibrillation or flutter. N Engl J Med. 2007 Sep 6;357(10):987-99. doi: 10.1056/NEJMoa054686."
+                },
+                {
+                    "pmid": "31324921",
+                    "type": "BACKGROUND",
+                    "citation": "Boriani G, Blomstrom-Lundqvist C, Hohnloser SH, Bergfeldt L, Botto GL, Capucci A, Lozano IF, Goette A, Israel CW, Merino JL, Camm AJ. Safety and efficacy of dronedarone from clinical trials to real-world evidence: implications for its use in atrial fibrillation. Europace. 2019 Dec 1;21(12):1764-1775. doi: 10.1093/europace/euz193."
+                },
+                {
+                    "pmid": "22082198",
+                    "type": "BACKGROUND",
+                    "citation": "Connolly SJ, Camm AJ, Halperin JL, Joyner C, Alings M, Amerena J, Atar D, Avezum A, Blomstrom P, Borggrefe M, Budaj A, Chen SA, Ching CK, Commerford P, Dans A, Davy JM, Delacretaz E, Di Pasquale G, Diaz R, Dorian P, Flaker G, Golitsyn S, Gonzalez-Hermosillo A, Granger CB, Heidbuchel H, Kautzner J, Kim JS, Lanas F, Lewis BS, Merino JL, Morillo C, Murin J, Narasimhan C, Paolasso E, Parkhomenko A, Peters NS, Sim KH, Stiles MK, Tanomsup S, Toivonen L, Tomcsanyi J, Torp-Pedersen C, Tse HF, Vardas P, Vinereanu D, Xavier D, Zhu J, Zhu JR, Baret-Cormel L, Weinling E, Staiger C, Yusuf S, Chrolavicius S, Afzal R, Hohnloser SH; PALLAS Investigators. Dronedarone in high-risk permanent atrial fibrillation. N Engl J Med. 2011 Dec 15;365(24):2268-76. doi: 10.1056/NEJMoa1109867. Epub 2011 Nov 14. Erratum In: N Engl J Med. 2012 Feb 16;366(7):672."
+                },
+                {
+                    "pmid": "18565860",
+                    "type": "BACKGROUND",
+                    "citation": "Kober L, Torp-Pedersen C, McMurray JJ, Gotzsche O, Levy S, Crijns H, Amlie J, Carlsen J; Dronedarone Study Group. Increased mortality after dronedarone therapy for severe heart failure. N Engl J Med. 2008 Jun 19;358(25):2678-87. doi: 10.1056/NEJMoa0800456. Erratum In: N Engl J Med. 2010 Sep 30;363(14):1384."
+                },
+                {
+                    "pmid": "22149318",
+                    "type": "BACKGROUND",
+                    "citation": "Dagres N, Varounis C, Iliodromitis EK, Lekakis JP, Rallidis LS, Anastasiou-Nana M. Dronedarone and the incidence of stroke in patients with paroxysmal or persistent atrial fibrillation: a systematic review and meta-analysis of randomized trials. Am J Cardiovasc Drugs. 2011 Dec 1;11(6):395-400. doi: 10.2165/11594200-000000000-00000."
+                },
+                {
+                    "pmid": "32860505",
+                    "type": "BACKGROUND",
+                    "citation": "Hindricks G, Potpara T, Dagres N, Arbelo E, Bax JJ, Blomstrom-Lundqvist C, Boriani G, Castella M, Dan GA, Dilaveris PE, Fauchier L, Filippatos G, Kalman JM, La Meir M, Lane DA, Lebeau JP, Lettino M, Lip GYH, Pinto FJ, Thomas GN, Valgimigli M, Van Gelder IC, Van Putte BP, Watkins CL; ESC Scientific Document Group. 2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS): The Task Force for the diagnosis and management of atrial fibrillation of the European Society of Cardiology (ESC) Developed with the special contribution of the European Heart Rhythm Association (EHRA) of the ESC. Eur Heart J. 2021 Feb 1;42(5):373-498. doi: 10.1093/eurheartj/ehaa612. No abstract available. Erratum In: Eur Heart J. 2021 Feb 1;42(5):507. Eur Heart J. 2021 Feb 1;42(5):546-547. Eur Heart J. 2021 Oct 21;42(40):4194."
+                },
+                {
+                    "pmid": "30686041",
+                    "type": "BACKGROUND",
+                    "citation": "January CT, Wann LS, Calkins H, Chen LY, Cigarroa JE, Cleveland JC Jr, Ellinor PT, Ezekowitz MD, Field ME, Furie KL, Heidenreich PA, Murray KT, Shea JB, Tracy CM, Yancy CW. 2019 AHA/ACC/HRS Focused Update of the 2014 AHA/ACC/HRS Guideline for the Management of Patients With Atrial Fibrillation: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines and the Heart Rhythm Society in Collaboration With the Society of Thoracic Surgeons. Circulation. 2019 Jul 9;140(2):e125-e151. doi: 10.1161/CIR.0000000000000665. Epub 2019 Jan 28. No abstract available. Erratum In: Circulation. 2019 Aug 6;140(6):e285."
+                },
+                {
+                    "pmid": "18031520",
+                    "type": "BACKGROUND",
+                    "citation": "Hohnloser SH, Connolly SJ, Crijns HJ, Page RL, Seiz W, Torp-Petersen C. Rationale and design of ATHENA: A placebo-controlled, double-blind, parallel arm Trial to assess the efficacy of dronedarone 400 mg bid for the prevention of cardiovascular Hospitalization or death from any cause in patiENts with Atrial fibrillation/atrial flutter. J Cardiovasc Electrophysiol. 2008 Jan;19(1):69-73. doi: 10.1111/j.1540-8167.2007.01016.x. Epub 2007 Nov 21."
+                },
+                {
+                    "pmid": "32466836",
+                    "type": "BACKGROUND",
+                    "citation": "Ferreira JP, Jhund PS, Duarte K, Claggett BL, Solomon SD, Pocock S, Petrie MC, Zannad F, McMurray JJV. Use of the Win Ratio in Cardiovascular Trials. JACC Heart Fail. 2020 Jun;8(6):441-450. doi: 10.1016/j.jchf.2020.02.010."
+                },
+                {
+                    "pmid": "21515593",
+                    "type": "BACKGROUND",
+                    "citation": "Nieuwlaat R. The value of cardiovascular hospitalization as an endpoint for clinical atrial fibrillation research. Europace. 2011 May;13(5):601-2. doi: 10.1093/europace/eur119. No abstract available."
+                },
+                {
+                    "pmid": "23183097",
+                    "type": "BACKGROUND",
+                    "citation": "Amin AN, Jhaveri M, Lin J. Hospital readmissions in US atrial fibrillation patients: occurrence and costs. Am J Ther. 2013 Mar-Apr;20(2):143-50. doi: 10.1097/MJT.0b013e3182512c7e."
+                },
+                {
+                    "pmid": "7055867",
+                    "type": "BACKGROUND",
+                    "citation": "Hinkle LE Jr, Thaler HT. Clinical classification of cardiac deaths. Circulation. 1982 Mar;65(3):457-64. doi: 10.1161/01.cir.65.3.457."
+                },
+                {
+                    "pmid": "30449519",
+                    "type": "BACKGROUND",
+                    "citation": "Calkins H, Gliklich RE, Leavy MB, Piccini JP, Hsu JC, Mohanty S, Lewis W, Nazarian S, Turakhia MP. Harmonized outcome measures for use in atrial fibrillation patient registries and clinical practice: Endorsed by the Heart Rhythm Society Board of Trustees. Heart Rhythm. 2019 Jan;16(1):e3-e16. doi: 10.1016/j.hrthm.2018.09.021. Epub 2018 Nov 16."
+                },
+                {
+                    "pmid": "25732748",
+                    "type": "BACKGROUND",
+                    "citation": "Holmqvist F, Kim S, Steinberg BA, Reiffel JA, Mahaffey KW, Gersh BJ, Fonarow GC, Naccarelli GV, Chang P, Freeman JV, Kowey PR, Thomas L, Peterson ED, Piccini JP; ORBIT-AF Investigators. Heart rate is associated with progression of atrial fibrillation, independent of rhythm. Heart. 2015 Jun;101(11):894-9. doi: 10.1136/heartjnl-2014-307043. Epub 2015 Mar 2."
+                },
+                {
+                    "pmid": "30562068",
+                    "type": "BACKGROUND",
+                    "citation": "Fanaroff AC, Cyr D, Neely ML, Bakal J, White HD, Fox KAA, Armstrong PW, Lopes RD, Ohman EM, Roe MT. Days Alive and Out of Hospital: Exploring a Patient-Centered, Pragmatic Outcome in a Clinical Trial of Patients With Acute Coronary Syndromes. Circ Cardiovasc Qual Outcomes. 2018 Dec;11(12):e004755. doi: 10.1161/CIRCOUTCOMES.118.004755."
+                },
+                {
+                    "pmid": "29880124",
+                    "type": "BACKGROUND",
+                    "citation": "Greene SJ, O'Brien EC, Mentz RJ, Luo N, Hardy NC, Laskey WK, Heidenreich PA, Chang CL, Turner SJ, Yancy CW, Hernandez AF, Curtis LH, Peterson PN, Fonarow GC, Hammill BG. Home-Time After Discharge Among Patients Hospitalized With Heart Failure. J Am Coll Cardiol. 2018 Jun 12;71(23):2643-2652. doi: 10.1016/j.jacc.2018.03.517."
+                },
+                {
+                    "pmid": "28506916",
+                    "type": "BACKGROUND",
+                    "citation": "Calkins H, Hindricks G, Cappato R, Kim YH, Saad EB, Aguinaga L, Akar JG, Badhwar V, Brugada J, Camm J, Chen PS, Chen SA, Chung MK, Nielsen JC, Curtis AB, Davies DW, Day JD, d'Avila A, de Groot NMSN, Di Biase L, Duytschaever M, Edgerton JR, Ellenbogen KA, Ellinor PT, Ernst S, Fenelon G, Gerstenfeld EP, Haines DE, Haissaguerre M, Helm RH, Hylek E, Jackman WM, Jalife J, Kalman JM, Kautzner J, Kottkamp H, Kuck KH, Kumagai K, Lee R, Lewalter T, Lindsay BD, Macle L, Mansour M, Marchlinski FE, Michaud GF, Nakagawa H, Natale A, Nattel S, Okumura K, Packer D, Pokushalov E, Reynolds MR, Sanders P, Scanavacca M, Schilling R, Tondo C, Tsao HM, Verma A, Wilber DJ, Yamane T. 2017 HRS/EHRA/ECAS/APHRS/SOLAECE expert consensus statement on catheter and surgical ablation of atrial fibrillation. Heart Rhythm. 2017 Oct;14(10):e275-e444. doi: 10.1016/j.hrthm.2017.05.012. Epub 2017 May 12. No abstract available."
+                },
+                {
+                    "pmid": "29411037",
+                    "type": "BACKGROUND",
+                    "citation": "Calvert M, Kyte D, Mercieca-Bebber R, Slade A, Chan AW, King MT; the SPIRIT-PRO Group; Hunn A, Bottomley A, Regnault A, Chan AW, Ells C, O'Connor D, Revicki D, Patrick D, Altman D, Basch E, Velikova G, Price G, Draper H, Blazeby J, Scott J, Coast J, Norquist J, Brown J, Haywood K, Johnson LL, Campbell L, Frank L, von Hildebrand M, Brundage M, Palmer M, Kluetz P, Stephens R, Golub RM, Mitchell S, Groves T. Guidelines for Inclusion of Patient-Reported Outcomes in Clinical Trial Protocols: The SPIRIT-PRO Extension. JAMA. 2018 Feb 6;319(5):483-494. doi: 10.1001/jama.2017.21903."
+                },
+                {
+                    "pmid": "30874716",
+                    "type": "BACKGROUND",
+                    "citation": "Mark DB, Anstrom KJ, Sheng S, Piccini JP, Baloch KN, Monahan KH, Daniels MR, Bahnson TD, Poole JE, Rosenberg Y, Lee KL, Packer DL; CABANA Investigators. Effect of Catheter Ablation vs Medical Therapy on Quality of Life Among Patients With Atrial Fibrillation: The CABANA Randomized Clinical Trial. JAMA. 2019 Apr 2;321(13):1275-1285. doi: 10.1001/jama.2019.0692. Erratum In: JAMA. 2019 Jun 18;321(23):2370."
+                },
+                {
+                    "pmid": "21160035",
+                    "type": "BACKGROUND",
+                    "citation": "Spertus J, Dorian P, Bubien R, Lewis S, Godejohn D, Reynolds MR, Lakkireddy DR, Wimmer AP, Bhandari A, Burk C. Development and validation of the Atrial Fibrillation Effect on QualiTy-of-Life (AFEQT) Questionnaire in patients with atrial fibrillation. Circ Arrhythm Electrophysiol. 2011 Feb;4(1):15-25. doi: 10.1161/CIRCEP.110.958033. Epub 2010 Dec 15."
+                },
+                {
+                    "pmid": "31092022",
+                    "type": "BACKGROUND",
+                    "citation": "Holmes DN, Piccini JP, Allen LA, Fonarow GC, Gersh BJ, Kowey PR, O'Brien EC, Reiffel JA, Naccarelli GV, Ezekowitz MD, Chan PS, Singer DE, Spertus JA, Peterson ED, Thomas L. Defining Clinically Important Difference in the Atrial Fibrillation Effect on Quality-of-Life Score. Circ Cardiovasc Qual Outcomes. 2019 May;12(5):e005358. doi: 10.1161/CIRCOUTCOMES.118.005358."
+                },
+                {
+                    "pmid": "33554614",
+                    "type": "BACKGROUND",
+                    "citation": "Packer DL, Piccini JP, Monahan KH, Al-Khalidi HR, Silverstein AP, Noseworthy PA, Poole JE, Bahnson TD, Lee KL, Mark DB; CABANA Investigators. Ablation Versus Drug Therapy for Atrial Fibrillation in Heart Failure: Results From the CABANA Trial. Circulation. 2021 Apr 6;143(14):1377-1390. doi: 10.1161/CIRCULATIONAHA.120.050991. Epub 2021 Feb 8."
+                },
+                {
+                    "pmid": "8840848",
+                    "type": "BACKGROUND",
+                    "citation": "Bubien RS, Knotts-Dolson SM, Plumb VJ, Kay GN. Effect of radiofrequency catheter ablation on health-related quality of life and activities of daily living in patients with recurrent arrhythmias. Circulation. 1996 Oct 1;94(7):1585-91. doi: 10.1161/01.cir.94.7.1585."
+                },
+                {
+                    "pmid": "20488300",
+                    "type": "BACKGROUND",
+                    "citation": "Wokhlu A, Monahan KH, Hodge DO, Asirvatham SJ, Friedman PA, Munger TM, Bradley DJ, Bluhm CM, Haroldson JM, Packer DL. Long-term quality of life after ablation of atrial fibrillation the impact of recurrence, symptom relief, and placebo effect. J Am Coll Cardiol. 2010 May 25;55(21):2308-16. doi: 10.1016/j.jacc.2010.01.040."
+                },
+                {
+                    "pmid": "25378467",
+                    "type": "BACKGROUND",
+                    "citation": "Hohnloser SH, Halperin JL, Camm AJ, Gao P, Radzik D, Connolly SJ; PALLAS investigators. Interaction between digoxin and dronedarone in the PALLAS trial. Circ Arrhythm Electrophysiol. 2014 Dec;7(6):1019-25. doi: 10.1161/CIRCEP.114.002046. Epub 2014 Nov 6."
+                },
+                {
+                    "pmid": "27518663",
+                    "type": "BACKGROUND",
+                    "citation": "Ford I, Norrie J. Pragmatic Trials. N Engl J Med. 2016 Aug 4;375(5):454-63. doi: 10.1056/NEJMra1510059. No abstract available."
+                },
+                {
+                    "pmid": "33724875",
+                    "type": "BACKGROUND",
+                    "citation": "Desai NR, Sciria CT, Zhao X, Piccini JP, Turakhia MP, Matsouaka R, Fonarow GC, Lewis WR. Patterns of Care for Atrial Fibrillation Before, During, and at Discharge From Hospitalization: From the Get With The Guidelines-Atrial Fibrillation Registry. Circ Arrhythm Electrophysiol. 2021 Apr;14(4):e009003. doi: 10.1161/CIRCEP.120.009003. Epub 2021 Mar 16."
+                },
+                {
+                    "pmid": "25185244",
+                    "type": "BACKGROUND",
+                    "citation": "Lewis WR, Piccini JP, Turakhia MP, Curtis AB, Fang M, Suter RE, Page RL 2nd, Fonarow GC. Get With The Guidelines AFIB: novel quality improvement registry for hospitalized patients with atrial fibrillation. Circ Cardiovasc Qual Outcomes. 2014 Sep;7(5):770-7. doi: 10.1161/CIRCOUTCOMES.114.001263. Epub 2014 Sep 2."
+                },
+                {
+                    "pmid": "20384650",
+                    "type": "BACKGROUND",
+                    "citation": "Le Heuzey JY, De Ferrari GM, Radzik D, Santini M, Zhu J, Davy JM. A short-term, randomized, double-blind, parallel-group study to evaluate the efficacy and safety of dronedarone versus amiodarone in patients with persistent atrial fibrillation: the DIONYSOS study. J Cardiovasc Electrophysiol. 2010 Jun 1;21(6):597-605. doi: 10.1111/j.1540-8167.2010.01764.x. Epub 2010 Apr 6."
+                },
+                {
+                    "pmid": "33730412",
+                    "type": "BACKGROUND",
+                    "citation": "Tave A, Goehring E, Desai V, Wu C, Bohn RL, Tamayo SG, Sicignano N, Juhaeri J, Jones JK, Weiss SR. Risk of interstitial lung disease in patients treated for atrial fibrillation with dronedarone versus other antiarrhythmics. Pharmacoepidemiol Drug Saf. 2021 Oct;30(10):1353-1359. doi: 10.1002/pds.5233. Epub 2021 May 4."
+                },
+                {
+                    "pmid": "33080088",
+                    "type": "BACKGROUND",
+                    "citation": "Blomstrom-Lundqvist C, Marrouche N, Connolly S, Corp Dit Genti V, Wieloch M, Koren A, Hohnloser SH. Efficacy and safety of dronedarone by atrial fibrillation history duration: Insights from the ATHENA study. Clin Cardiol. 2020 Dec;43(12):1469-1477. doi: 10.1002/clc.23463. Epub 2020 Oct 20."
+                },
+                {
+                    "pmid": "32191539",
+                    "type": "BACKGROUND",
+                    "citation": "Chew DS, Black-Maier E, Loring Z, Noseworthy PA, Packer DL, Exner DV, Mark DB, Piccini JP. Diagnosis-to-Ablation Time and Recurrence of Atrial Fibrillation Following Catheter Ablation: A Systematic Review and Meta-Analysis of Observational Studies. Circ Arrhythm Electrophysiol. 2020 Apr;13(4):e008128. doi: 10.1161/CIRCEP.119.008128. Epub 2020 Mar 19."
+                },
+                {
+                    "pmid": "18760136",
+                    "type": "BACKGROUND",
+                    "citation": "Davy JM, Herold M, Hoglund C, Timmermans A, Alings A, Radzik D, Van Kempen L; ERATO Study Investigators. Dronedarone for the control of ventricular rate in permanent atrial fibrillation: the Efficacy and safety of dRonedArone for the cOntrol of ventricular rate during atrial fibrillation (ERATO) study. Am Heart J. 2008 Sep;156(3):527.e1-9. doi: 10.1016/j.ahj.2008.06.010."
+                },
+                {
+                    "pmid": "34656316",
+                    "type": "BACKGROUND",
+                    "citation": "Gandhi SK, Reiffel JA, Boiron R, Wieloch M. Risk of Major Bleeding in Patients With Atrial Fibrillation Taking Dronedarone in Combination With a Direct Acting Oral Anticoagulant (From a U.S. Claims Database). Am J Cardiol. 2021 Nov 15;159:79-86. doi: 10.1016/j.amjcard.2021.08.015."
+                },
+                {
+                    "pmid": "22424009",
+                    "type": "BACKGROUND",
+                    "citation": "Xian Y, Fonarow GC, Reeves MJ, Webb LE, Blevins J, Demyanenko VS, Zhao X, Olson DM, Hernandez AF, Peterson ED, Schwamm LH, Smith EE. Data quality in the American Heart Association Get With The Guidelines-Stroke (GWTG-Stroke): results from a national data validation audit. Am Heart J. 2012 Mar;163(3):392-8, 398.e1. doi: 10.1016/j.ahj.2011.12.012."
+                },
+                {
+                    "pmid": "15842354",
+                    "type": "BACKGROUND",
+                    "citation": "Schulman S, Kearon C; Subcommittee on Control of Anticoagulation of the Scientific and Standardization Committee of the International Society on Thrombosis and Haemostasis. Definition of major bleeding in clinical investigations of antihemostatic medicinal products in non-surgical patients. J Thromb Haemost. 2005 Apr;3(4):692-4. doi: 10.1111/j.1538-7836.2005.01204.x."
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "Willi Maurer & Frank Bretz (2013) Multiple Testing in Group Sequential Trials Using Graphical Approaches, Statistics in Biopharmaceutical Research, 5:4, 311-320."
+                },
+                {
+                    "pmid": "25156540",
+                    "type": "BACKGROUND",
+                    "citation": "Luo X, Tian H, Mohanty S, Tsai WY. An alternative approach to confidence interval estimation for the win ratio statistic. Biometrics. 2015 Mar;71(1):139-145. doi: 10.1111/biom.12225. Epub 2014 Aug 25."
+                },
+                {
+                    "pmid": "16138360",
+                    "type": "BACKGROUND",
+                    "citation": "Liu GF, Wang J, Liu K, Snavely DB. Confidence intervals for an exposure adjusted incidence rate difference with applications to clinical trials. Stat Med. 2006 Apr 30;25(8):1275-86. doi: 10.1002/sim.2335."
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "Jennison C and Turnbull BW. Group Sequential Methods with Applications to Clinical Trials. New York, NY: Chapman & Hall/CRC; 2000."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-05-01"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000001281",
+                    "term": "Atrial Fibrillation"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001145",
+                    "term": "Arrhythmias, Cardiac"
+                },
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M4586",
+                    "name": "Atrial Fibrillation",
+                    "asFound": "Atrial Fibrillation",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4453",
+                    "name": "Arrhythmias, Cardiac",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000077764",
+                    "term": "Dronedarone"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000889",
+                    "term": "Anti-Arrhythmia Agents"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5381",
+                    "name": "Calcium",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5398",
+                    "name": "Calcium, Dietary",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3671",
+                    "name": "Adrenergic beta-Antagonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20746",
+                    "name": "Adrenergic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20755",
+                    "name": "Adrenergic Antagonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7265",
+                    "name": "Digoxin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4213",
+                    "name": "Anti-Arrhythmia Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5384",
+                    "name": "Calcium Channel Blockers",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M1897",
+                    "name": "Dronedarone",
+                    "asFound": "Calculator",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "BDCA",
+                    "name": "Bone Density Conservation Agents"
+                },
+                {
+                    "abbrev": "AnArAg",
+                    "name": "Anti-Arrhythmia Agents"
+                },
+                {
+                    "abbrev": "CaAg",
+                    "name": "Cardiotonic Agents"
+                },
+                {
+                    "abbrev": "ChanBlk",
+                    "name": "Channel Blockers"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}
