@@ -1,8 +1,9 @@
 import re
 import json
 import warnings
+import time
 import streamlit as st
-from chain import load_chain, process_messages
+from chain import load_chain, process_messages, question_relatable
 
 warnings.filterwarnings("ignore")
 st.set_page_config(layout="wide")
@@ -71,12 +72,17 @@ st.sidebar.markdown(sidebar_content,unsafe_allow_html=True)
 
 st.caption("Talk your way through data")
 
-def show_messages(input, chat_history):
+def show_messages(input, chat_history, result):
 
-    for idx, chunk in enumerate(chain.stream({"input": input, "chat_history": chat_history})):
-        if idx >= 2:
-            yield chunk["answer"]
-
+    if result:
+        for idx, chunk in enumerate(chain.stream({"input": input, "chat_history": chat_history})):
+            if idx >= 2:
+                yield chunk["answer"]
+    else:
+        response = "Apologies, I'm unable to provide a response to that inquiry at this moment. For further assistance, please feel free to reach out to us via phone at 714-456-7890 or visit our website at ucihealth.org. We'll be happy to help you there."
+        for word in response.split():
+            yield word + " "
+            time.sleep(0.05)
 try:
     if "toast_shown" not in st.session_state:
         st.session_state["toast_shown"] = False
@@ -115,9 +121,13 @@ try:
 
     if "messages" not in st.session_state.keys():
         st.session_state["messages"] = INITIAL_MESSAGE
+    
+    if "history" not in st.session_state.keys():
+        st.session_state["history"] = []
 
     if prompt := st.chat_input():
         st.session_state.messages.append({"role": "user", "content": prompt})
+        st.session_state.history.append({"role": "user", "content": prompt})
 
     for message in st.session_state["messages"] :
         if message["role"] != "system":
@@ -135,12 +145,17 @@ try:
 
             with st.chat_message("assistant"):
                 botmsg = st.empty()
+
+            chat_history = process_messages(st.session_state.history)
+            result = question_relatable(chat_history, user_input_content)
+            ai_msg = botmsg.write_stream(show_messages(user_input_content, chat_history, result))
             
-            chat_history = process_messages(st.session_state.messages)
-            ai_msg = botmsg.write_stream(show_messages(user_input_content, chat_history))
+            if result:
+                st.session_state.history.append({'role': "assistant", 'content': ai_msg})
+            else:
+                st.session_state.history.pop()
 
             st.session_state.messages.append({"role": "assistant", "content": ai_msg})
-
 
 except Exception as e:
     print(e)
