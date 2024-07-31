@@ -32,7 +32,7 @@ class ModelWrapper:
     
     def load_model(self):
         self.main_model = ChatOpenAI(model_name=self.llm, temperature=0.1, api_key = self.api_key, streaming = True)
-        self.rephrase_model = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.1, api_key = self.api_key)
+        self.rephrase_model = ChatOpenAI(model_name="gpt-4o", temperature=0.1, api_key = self.api_key)
 
     def conversational_chain(self, vectorstore):
 
@@ -106,15 +106,16 @@ class Identify:
         self.client = OpenAI(api_key = st.secrets["openai-key"])
         self.chat_history = chat_history
         self.input = input
-
+        
     def identify_chain(self):
 
-        system_prompt = """Given the chat history and the latest user question, \
-        which may reference information from the chat history, \
-        please determine if the user question pertains to clinical trials, studies, or any aspect of the medical field. \
-        Respond with "Yes" if it is related or "No" if it is not. \
-        """
-        main_model = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.1, api_key = st.secrets["openai-key"])
+        system_prompt = """Given the chat history and the latest user question,\
+        you need to determine whether the question pertains to clinical trials, medical studies, any aspect of the medical field, or greetings messages such as Hi, Hello. \
+        If the question is related to any of these topics, respond with "Yes." \
+        If the question does not relate to these topics or includes a mixture of greetings and unrelated subjects, respond with "No."\
+        It is important to note that you should not provide an answer to the user question itself;\
+        simply respond with "Yes" or "No" based on the relevance criteria outlined."""
+        main_model = ChatOpenAI(model_name="gpt-4o", temperature=0.1, api_key = st.secrets["openai-key"])
         qa_prompt = ChatPromptTemplate.from_messages(
             [
             ("system", system_prompt),
@@ -124,8 +125,13 @@ class Identify:
         )
 
         qa_chain = qa_prompt | main_model
-        self.result = qa_chain.invoke({"input": self.input, "chat_history": self.chat_history}).content
-
+        ans = qa_chain.invoke({"input": self.input, "chat_history": self.chat_history})
+        self.result = ans.content
+        print("This is result:", ans)
+        print("\n")
+        print("debug:",self.result)
+        print("\n")
+        
     def cosine_similarity(self, a, b):
         return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
 
@@ -135,7 +141,7 @@ class Identify:
         vector1 = embeddings.data[0].embedding
         vector2 = embeddings.data[1].embedding
         vector3 = embeddings.data[2].embedding
-    
+
         score_yes = self.cosine_similarity(vector1, vector3)
         score_no = self.cosine_similarity( vector2, vector3)
         return True if score_yes > score_no else False
@@ -167,4 +173,4 @@ def load_chain(model_name="gpt-3.5-turbo", chain = "retrieval_chain"):
     vectorstore = FAISS.load_local("database/vectorDB/primaryDB", embeddings, allow_dangerous_deserialization=True)
 
     model = ModelWrapper(model = model_name)
-    return model.retrieval_chain(vectorstore) if chain == "retrieval_chain" else model.conversational_chain(vectorstore)
+    return model.retrieval_chain(vectorstore), vectorstore if chain == "retrieval_chain" else model.conversational_chain(vectorstore)

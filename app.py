@@ -8,7 +8,7 @@ from chain import load_chain, process_messages, question_relatable
 warnings.filterwarnings("ignore")
 st.set_page_config(layout="wide")
 
-model = "gpt-4-turbo"
+model = "gpt-4o"
 
 gradient_text_html = """
 <style>
@@ -112,6 +112,8 @@ try:
         for key in st.session_state.keys():
             del st.session_state[key]
         st.session_state["messages"] = INITIAL_MESSAGE
+        st.session_state["history"] = []
+        st.rerun()
 
 
     st.sidebar.markdown(
@@ -135,18 +137,17 @@ try:
                 st.write(message["content"])
 
 
-    chain = load_chain(model, "retrieval_chain")
-
+    chain, vector_store = load_chain(model, "retrieval_chain")
     if ("messages" in st.session_state and st.session_state["messages"][-1]["role"] != "assistant"):
 
         user_input_content = st.session_state["messages"][-1]["content"]
-
         if isinstance(user_input_content, str):
 
             with st.chat_message("assistant"):
                 botmsg = st.empty()
 
             chat_history = process_messages(st.session_state.history)
+            print(f"{chat_history} \n")
             result = question_relatable(chat_history, user_input_content)
             ai_msg = botmsg.write_stream(show_messages(user_input_content, chat_history, result))
             
@@ -155,6 +156,7 @@ try:
             else:
                 st.session_state.history.pop()
 
+            print(st.session_state.history)
             st.session_state.messages.append({"role": "assistant", "content": ai_msg})
 
 except Exception as e:
