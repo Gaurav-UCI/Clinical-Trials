@@ -72,8 +72,8 @@ class ModelWrapper:
 
         qa_system_prompt = """You are an assistant for question-answering tasks. \
         Use the following pieces of retrieved context to answer the question. \
-        If the user asks for options or suggestions, always provide at least 3 options.\
-        Please provide a concise answer.\
+        Don't make up information. \
+        Please provide a concise answer. \
 
         {context}"""
 
@@ -114,7 +114,7 @@ class Identify:
         If the question is related to any of these topics, respond with "Yes." \
         If the question does not relate to these topics or includes a mixture of greetings and unrelated subjects, respond with "No."\
         It is important to note that you should not provide an answer to the user question itself;\
-        simply respond with "Yes" or "No" based on the relevance criteria outlined."""
+        DO NOT ANSWER THE QUESTION, just simply respond with "Yes" or "No" based on the relevance criteria outlined."""
         main_model = ChatOpenAI(model_name="gpt-4o", temperature=0.1, api_key = st.secrets["openai-key"])
         qa_prompt = ChatPromptTemplate.from_messages(
             [
