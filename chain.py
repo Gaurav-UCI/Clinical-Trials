@@ -114,7 +114,8 @@ class Identify:
         If the question is related to any of these topics, respond with "Yes." \
         If the question does not relate to these topics or includes a mixture of greetings and unrelated subjects, respond with "No."\
         It is important to note that you should not provide an answer to the user question itself;\
-        DO NOT ANSWER THE QUESTION, just simply respond with "Yes" or "No" based on the relevance criteria outlined."""
+        DO NOT ANSWER THE QUESTION, justsimply respond with "Yes" or "No" based on the relevance criteria outlined."""
+        
         main_model = ChatOpenAI(model_name="gpt-4o", temperature=0.1, api_key = st.secrets["openai-key"])
         qa_prompt = ChatPromptTemplate.from_messages(
             [
