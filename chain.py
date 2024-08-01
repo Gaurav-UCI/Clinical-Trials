@@ -198,24 +198,24 @@ def find_pattern(matches):
                 text += "Title: " + protocol["TITLE"] + " "
             text += "Short Title: " + protocol["SHORT_TITLE"] + " "
             text += "Sponsor: " + protocol["SPONSOR"] + " "
-            text += "Detailed Eligibility: " + protocol["DETAILED_ELIGIBILITY"] + " "
+            text += "Detailed Eligibility: " + str(protocol["DETAILED_ELIGIBILITY"]) + " "
             if "DESCRIPTION" in protocol:
                 text += "Description: " + protocol["DESCRIPTION"] + " "
             text += "Summary: " + protocol["SUMMARY"] + " "
             text += "Status: " + protocol["STATUS"] + " "
             if  "PRIMARY_OUTCOMES" in protocol:
-                text += "Outcome Description: " + protocol["PRIMARY_OUTCOMES"] + " "
+                text += "Outcome Description: " + str(protocol["PRIMARY_OUTCOMES"]) + " "
             if "SECONDARY_OUTCOMES" in protocol:
-                text += "Outcome Measure: " + protocol["SECONDARY_OUTCOMES"] + " "
+                text += "Outcome Measure: " + str(protocol["SECONDARY_OUTCOMES"]) + " "
             if "OTHER_OUTCOMES" in protocol:
-                text += "Outcome Timeframe: " + protocol["OTHER_OUTCOMES"] + " "
-            text += "Age Description: " + protocol["AGE_DESCRIPTION"] + " "
+                text += "Outcome Timeframe: " + str(protocol["OTHER_OUTCOMES"]) + " "
+            text += "Age Description: " + str(protocol["AGE_DESCRIPTION"]) + " "
             if "CONDITIONS" in protocol:
                 text += "Conditions: " + str(protocol["CONDITIONS"])+ " "
             if "OVERALL_OFFICIALS" in protocol:
-                text += "Overall Officials: " + protocol["OVERALL_OFFICIALS"]+ " "
+                text += "Overall Officials: " + str(protocol["OVERALL_OFFICIALS"])+ " "
             if "LOCATIONS" in protocol:
-                text += "Locations: " + protocol["LOCATIONS"]+ " "
+                text += "Locations: " + str(protocol["LOCATIONS"])+ " "
             
             docs.append(Document(page_content=text, metadata={"source": protocol["NCT_ID"]}))
 

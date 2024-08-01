@@ -80,7 +80,7 @@ def show_messages(input, chat_history, result, old_chain):
         matches = re.findall(pattern, user_input_content)
         if len(matches)>0:
             docs = find_pattern(matches)
-            
+            print("I am here!")
             contexts = load_new_history_chain( chat_history, input, docs)
             chain = load_new_qa_chain()
             for idx, chunk in enumerate(chain.stream({"input": input, "chat_history": chat_history, "context":contexts})):
