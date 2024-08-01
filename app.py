@@ -3,7 +3,7 @@ import json
 import warnings
 import time
 import streamlit as st
-from chain import load_chain, process_messages, question_relatable
+from chain import load_chain, process_messages, question_relatable, find_pattern, load_new_qa_chain, load_new_history_chain
 
 warnings.filterwarnings("ignore")
 st.set_page_config(layout="wide")
@@ -72,12 +72,23 @@ st.sidebar.markdown(sidebar_content,unsafe_allow_html=True)
 
 st.caption("Talk your way through data")
 
-def show_messages(input, chat_history, result):
+def show_messages(input, chat_history, result, old_chain):
+    
 
     if result:
-        for idx, chunk in enumerate(chain.stream({"input": input, "chat_history": chat_history})):
-            if idx >= 2:
-                yield chunk["answer"]
+        pattern = r'\bNCT\d{8}\b'
+        matches = re.findall(pattern, user_input_content)
+        if len(matches)>0:
+            docs = find_pattern(matches)
+            
+            contexts = load_new_history_chain( chat_history, input, docs)
+            chain = load_new_qa_chain()
+            for idx, chunk in enumerate(chain.stream({"input": input, "chat_history": chat_history, "context":contexts})):
+                yield chunk
+        else:
+            for idx, chunk in enumerate(old_chain.stream({"input": input, "chat_history": chat_history})):
+                if idx >= 2:
+                    yield chunk["answer"]
     else:
         response = "Apologies, I'm unable to provide a response to that inquiry at this moment. For further assistance, please feel free to reach out to us via phone at 714-456-7890 or visit our website at ucihealth.org. We'll be happy to help you there."
         for word in response.split():
@@ -137,26 +148,25 @@ try:
                 st.write(message["content"])
 
 
-    chain, vector_store = load_chain(model, "retrieval_chain")
+    old_chain, vector_store = load_chain(model, "retrieval_chain")
     if ("messages" in st.session_state and st.session_state["messages"][-1]["role"] != "assistant"):
 
         user_input_content = st.session_state["messages"][-1]["content"]
         if isinstance(user_input_content, str):
-
+            
             with st.chat_message("assistant"):
                 botmsg = st.empty()
-
+            
             chat_history = process_messages(st.session_state.history)
-            print(f"{chat_history} \n")
-            result = question_relatable(chat_history, user_input_content)
-            ai_msg = botmsg.write_stream(show_messages(user_input_content, chat_history, result))
+            result = question_relatable(chat_history, user_input_content) 
+            ai_msg = botmsg.write_stream(show_messages(user_input_content, chat_history, result, old_chain))
             
             if result:
                 st.session_state.history.append({'role': "assistant", 'content': ai_msg})
             else:
                 st.session_state.history.pop()
 
-            print(st.session_state.history)
+            # print(st.session_state.history)
             st.session_state.messages.append({"role": "assistant", "content": ai_msg})
 
 except Exception as e:
@@ -169,4 +179,5 @@ except Exception as e:
             for key in st.session_state.keys():
                 del st.session_state[key]
             st.session_state["messages"] = INITIAL_MESSAGE
+            st.session_state["history"] = []
             st.rerun()

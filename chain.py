@@ -15,9 +15,12 @@ from langchain_core.runnables import RunnableParallel, RunnablePassthrough
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.chains import create_retrieval_chain
+from langchain.docstore.document import Document
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_history_aware_retriever
 import numpy as np
+import json
+from pathlib import Path
 from openai import OpenAI
 import openai
 
@@ -72,7 +75,8 @@ class ModelWrapper:
 
         qa_system_prompt = """You are an assistant for question-answering tasks. \
         Use the following pieces of retrieved context to answer the question. \
-        Don't make up information. \
+        If user asks for suggestions/options at least provide 3 options\
+        
         Please provide a concise answer. \
 
         {context}"""
@@ -105,7 +109,13 @@ class Identify:
     def __init__ (self, chat_history, input):
         self.client = OpenAI(api_key = st.secrets["openai-key"])
         self.chat_history = chat_history
-        self.input = input
+        prompt = """Given the chat history and the latest user question,\
+        you need to determine whether the question pertains to clinical trials, medical studies, any aspect of the medical field, or greetings messages such as Hi, Hello. \
+        If the question is related to any of these topics, respond with "Yes." \
+        If the question does not relate to these topics or includes a mixture of greetings and unrelated subjects, respond with "No."\
+        It is important to note that you should not provide an answer to the user question itself;\
+        DO NOT ANSWER THE QUESTION, just simply respond with "Yes" or "No" based on the relevance criteria outlined."""
+        self.input = input + "\n" + prompt
         
     def identify_chain(self):
 
@@ -114,7 +124,7 @@ class Identify:
         If the question is related to any of these topics, respond with "Yes." \
         If the question does not relate to these topics or includes a mixture of greetings and unrelated subjects, respond with "No."\
         It is important to note that you should not provide an answer to the user question itself;\
-        DO NOT ANSWER THE QUESTION, justsimply respond with "Yes" or "No" based on the relevance criteria outlined."""
+        DO NOT ANSWER THE QUESTION, just simply respond with "Yes" or "No" based on the relevance criteria outlined."""
         
         main_model = ChatOpenAI(model_name="gpt-4o", temperature=0.1, api_key = st.secrets["openai-key"])
         qa_prompt = ChatPromptTemplate.from_messages(
@@ -171,7 +181,94 @@ def load_chain(model_name="gpt-3.5-turbo", chain = "retrieval_chain"):
 
     api_key = st.secrets["openai-key"]
     embeddings = OpenAIEmbeddings(openai_api_key=api_key)
-    vectorstore = FAISS.load_local("database/vectorDB/primaryDB", embeddings, allow_dangerous_deserialization=True)
+    vectorstore = FAISS.load_local("database/vectorDB/UCDB1", embeddings, allow_dangerous_deserialization=True)
 
     model = ModelWrapper(model = model_name)
     return model.retrieval_chain(vectorstore), vectorstore if chain == "retrieval_chain" else model.conversational_chain(vectorstore)
+
+def find_pattern(matches):
+    
+    data = json.loads(Path("./data.json").read_text())
+    print("hello")
+    docs = []
+    for protocol in data:
+        if protocol["NCT_ID"] in matches:
+            text = protocol["NCT_ID"] + " "
+            if "TITLE" in protocol:
+                text += "Title: " + protocol["TITLE"] + " "
+            text += "Short Title: " + protocol["SHORT_TITLE"] + " "
+            text += "Sponsor: " + protocol["SPONSOR"] + " "
+            text += "Detailed Eligibility: " + protocol["DETAILED_ELIGIBILITY"] + " "
+            if "DESCRIPTION" in protocol:
+                text += "Description: " + protocol["DESCRIPTION"] + " "
+            text += "Summary: " + protocol["SUMMARY"] + " "
+            text += "Status: " + protocol["STATUS"] + " "
+            if  "PRIMARY_OUTCOMES" in protocol:
+                text += "Outcome Description: " + protocol["PRIMARY_OUTCOMES"] + " "
+            if "SECONDARY_OUTCOMES" in protocol:
+                text += "Outcome Measure: " + protocol["SECONDARY_OUTCOMES"] + " "
+            if "OTHER_OUTCOMES" in protocol:
+                text += "Outcome Timeframe: " + protocol["OTHER_OUTCOMES"] + " "
+            text += "Age Description: " + protocol["AGE_DESCRIPTION"] + " "
+            if "CONDITIONS" in protocol:
+                text += "Conditions: " + str(protocol["CONDITIONS"])+ " "
+            if "OVERALL_OFFICIALS" in protocol:
+                text += "Overall Officials: " + protocol["OVERALL_OFFICIALS"]+ " "
+            if "LOCATIONS" in protocol:
+                text += "Locations: " + protocol["LOCATIONS"]+ " "
+            
+            docs.append(Document(page_content=text, metadata={"source": protocol["NCT_ID"]}))
+
+    print("Hello2")
+    return docs if len(docs)>1 else docs
+
+
+
+def load_new_history_chain( chat_history, input, docs):
+
+    api_key = st.secrets["openai-key"]
+    embeddings = OpenAIEmbeddings(openai_api_key=api_key)
+    vectorstore = FAISS.load_local("database/vectorDB/UCDB1", embeddings, allow_dangerous_deserialization=True)
+    model = ChatOpenAI(model_name='gpt-4o', temperature=0.1, api_key = api_key)
+    
+    contextualize_q_system_prompt = """Given a chat history and the latest user question \
+    which might reference context in the chat history, formulate a standalone question \
+    which can be understood without the chat history. Do NOT answer the question, \
+    just reformulate it if needed and otherwise return it as is."""
+    contextualize_q_prompt = ChatPromptTemplate.from_messages(
+        [
+            ("system", contextualize_q_system_prompt),
+            MessagesPlaceholder("chat_history"),
+            ("human", "{input}"),
+        ]
+    )
+    retriever = vectorstore.as_retriever(k=3)
+    history_aware_retriever = create_history_aware_retriever(model, retriever, contextualize_q_prompt)
+    result = history_aware_retriever.invoke({"chat_history": chat_history,"input":input})
+    result.extend(docs)
+    source_knowledge = "\n".join([x.page_content for x in result])
+    # print(source_knowledge)
+    return source_knowledge 
+
+def load_new_qa_chain():
+
+    api_key = st.secrets["openai-key"]
+    model = ChatOpenAI(model_name='gpt-4o', temperature=0.1, api_key = api_key)
+
+    qa_system_prompt = """You are an assistant for question-answering tasks. \
+        Use the following pieces of retrieved context to answer the question. \
+        Please provide a concise answer. \
+
+    {context}"""
+    
+    qa_prompt = ChatPromptTemplate.from_messages(
+        [
+        ("system", qa_system_prompt),
+        MessagesPlaceholder("chat_history"),
+        ("human", "{input}"),
+        ]
+    )
+
+    qa_chain =  qa_prompt | model | StrOutputParser()
+
+    return qa_chain
