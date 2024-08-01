@@ -34,7 +34,7 @@ sidebar_content = """
 <ul>
     <li><strong>Conversational AI:</strong> Harnessing ChatGPT to interpret natural language queries accurately</li>
     <li><strong>Conversational Memory:</strong> Retains context for interactive, dynamic responses.</li>
-    <li><strong>Dataset:</strong> Based on a comprehensive dataset of 10,000 clinical trials.</li>
+    <li><strong>Dataset:</strong> Based on a comprehensive dataset of 2500 clinical trials.</li>
     <li><strong>Interactive User Interface:</strong> Transforms data querying into an engaging conversation, complete with a chat reset option.</li>
 </ul>
 
@@ -103,7 +103,7 @@ try:
 
 
     if not st.session_state["toast_shown"]:
-        st.toast("The bot's training data is limited to a dataset of 2500 clinical trials.", icon="👋")
+        st.toast("The bot's fine-tuned data is limited to a dataset of 2500 clinical trials.", icon="👋")
         st.session_state["toast_shown"] = True
 
     if st.session_state["rate-limit"]:
@@ -128,7 +128,7 @@ try:
 
 
     st.sidebar.markdown(
-        "**Note:** <span style='color:red'>The bot's training data is limited to a dataset of 2500 clinical trials.</span>",
+        "**Note:** <span style='color:red'>The bot's fine-tuned data is limited to a dataset of 2500 clinical trials.</span>",
         unsafe_allow_html=True,
     )
 
